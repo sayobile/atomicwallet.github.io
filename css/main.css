@@ -665,7 +665,13 @@ box-shadow: none;
 	padding-bottom: 20px;
 
 }
-
+.download-text a {
+    color: #172848;
+    text-decoration: underline;
+}
+.download-text a:hover {
+	text-decoration: none;
+}
 .download-text-app {
 	text-align: center;
 	line-height: 28px;
