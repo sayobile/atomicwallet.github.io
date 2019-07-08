@@ -471,8 +471,8 @@ abbr {
     text-decoration-style: double;
 }
 iframe {
-    width: 680px;
-    height: 395px;
+    /*width: 680px;*/
+    /*height: 100%;*/
 }
 #widget {
     height: inherit;
@@ -1251,6 +1251,17 @@ li> .item-page-image-template {
       }
       ol> .item-page-image-template {
     margin-left: -20px;
+}
+.fixed-header {
+    position: unset;
+    height: inherit;
+}
+.no-logo {
+    height: inherit !important;
+}
+.header-height {
+    height: inherit !important;
+    padding-top: unset;
 }
 
 

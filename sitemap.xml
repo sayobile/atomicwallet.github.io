@@ -218,8 +218,12 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <url>
    <loc>https://atomicwallet.io/buy-ripple</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://atomicwallet.io/buy-binance-coin</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
@@ -228,7 +232,7 @@
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
-
+<url>
    <loc>https://atomicwallet.io/buy-neo</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
@@ -399,21 +403,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-   <loc>https://support.atomicwallet.io/support/solutions/articles/36000034281-what-is-the-difference-between-exchange-instant-exchange-and-atomic-swaps-</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-   <loc>https://support.atomicwallet.io/support/solutions/articles/36000088736-where-to-find-my-private-keys-btc-eth-xrp-</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-   <loc>https://support.atomicwallet.io/support/solutions/folders/36000156631</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://atomicwallet.io/smart-contracts</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
@@ -449,7 +438,7 @@
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
-  <url>
+<url>
   <loc>https://atomicwallet.io/trade-awc-on-binance-dex</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
@@ -486,6 +475,11 @@
 </url>
 <url>
   <loc>https://atomicwallet.io/financial-advantages-of-atomic-swaps</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/what-is-pump-and-dump</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
