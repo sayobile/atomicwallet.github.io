@@ -483,4 +483,14 @@
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://atomicwallet.io/what-is-proof-of-stake</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://atomicwallet.io/blockchain-regulation</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
 </urlset>
