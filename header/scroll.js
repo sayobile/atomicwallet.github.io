@@ -7,22 +7,27 @@ $(function(){
          if ( scroll >= shrinkHeader ) {
               $('.header').addClass('shrink');
               $('.btn--download').addClass('shrink-btn');
-              $('#atomic_txt').fadeOut(300);
-              $('.header__logo svg').attr('width','90');
-              $('.header__logo svg').attr('height','75');
-              $('.header__logo').css({'paddingTop':'10px'})
-              $('.header__logo svg').attr('viewBox',"0 0 90 88");
+              $('#atomic_txt').hide();
+              $('.header__logo svg').css({
+                transform:'scale(.75)',
+                paddingTop:'10px'
+              })
+              
+            
 
               
            }
            else {
                $('.header').removeClass('shrink');
                $('.btn--download').removeClass('shrink-btn');
-               $('#atomic_txt').fadeIn(300);
-               $('.header__logo').css({'paddingTop':'0'})
-               $('.header__logo svg').attr('width','107');
-              $('.header__logo svg').attr('height','85');
-              $('.header__logo svg').attr('viewBox',"0 0 107 85");
+			        $('#atomic_txt').show(300);
+              $('.header__logo svg').css({
+                transform:'scale(1)',
+                paddingTop:'0'
+              })
+              
+             
+			 
               
            }
      });

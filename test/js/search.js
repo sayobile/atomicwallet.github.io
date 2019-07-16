@@ -11,29 +11,13 @@ $(function(){
 		 const dataNames = await secondResponse.json();
 		 
 		 
-		const test = fetch('https://demoapi-online.robo-med.com/webapi3/api/v3/publicInfo/getDoctors')  
-		  .then(  
-			function(response) {  
-			  if (response.status !== 200) {  
-				console.log('Looks like there was a problem. Status Code: ' +  
-				  response.status);  
-				return;  
-			  }
-
-			  // Examine the text in the response  
-			  response.json().then(function(data) {  
-				console.log(data);  
-			  });  
-			}  
-		  )  
-		  .catch(function(err) {  
-			console.log('Fetch Error :-S', err);  
-		  });
+		
 		 
 		 
 		 
 		 prices = dataInfo.DISPLAY;
 		 items = dataNames;
+		 console.log(items);
 	
 		 console.log(prices);
 		 $.each(prices,function(key,val){
@@ -50,7 +34,7 @@ $(function(){
 			 
 		 })
 		 
-		 console.log(prices);
+	
 		
 		 renderList(items,resultBlock);
 	 }
