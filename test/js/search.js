@@ -43,7 +43,8 @@ $(function(){
 	 getData();
 	  
 	  function filter(val,list){
-					return list.filter(i=>(~i.fullName.indexOf(val)))
+					
+					return list.filter(i=>(~i.fullName.toLowerCase().indexOf(val)))
 	  };
 	  
 	  
@@ -124,7 +125,7 @@ $(function(){
 			
 		
 		 
-	document.getElementById('search').addEventListener('input',e=>renderList(filter(e.target.value,items),resultBlock));
+	document.getElementById('search').addEventListener('input',e=>renderList(filter(e.target.value.toLowerCase(),items),resultBlock));
 	
 				$('.input-wrapper input').keyup(function(e){
 					let code = e.keyCode;
