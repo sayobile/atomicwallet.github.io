@@ -148,10 +148,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <label for="zoomCheck1">
     <img class="listing-qr-code" width="18px"  src="css/images/icons/qr-code-erc20.png" id="erc20">
   </label></p> -->
-                    <input type="checkbox" id="zoomCheck1">
-  <label for="zoomCheck1">
+                   
     <img class="listing-qr-code" src="../css/images/articles/listing-campaign/usdt.jpeg" id="bnbawc">
-  </label>
+
         <button class="btn" data-clipboard-text="bnb1efgp3rfqv36jm4q0ndxzgq42eskryde5jc9lk8">
  <p class="flex-item-p">
    <i  id="copy" >bnb1efgp3rfqv36jm4q0ndxzgq42eskryde5jc9lk8</i>
@@ -189,10 +188,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <label for="zoomCheck1">
     <img class="listing-qr-code" width="18px"  src="css/images/icons/qr-code-erc20.png" id="erc20">
   </label></p> -->
-            <input type="checkbox" id="zoomCheck2">
-  <label for="zoomCheck2">
+           
     <img class="listing-qr-code" src="../css/images/articles/listing-campaign/zil.jpeg" id="bnbawc">
-  </label>
+ 
         <button class="btn" data-clipboard-text="bnb1x3a4fnlnrt98smaagk4ywy7dune8frfp65jd5z">
 
            <p class="flex-item-p"><i id="copy">bnb1x3a4fnlnrt98smaagk4ywy7dune8frfp65jd5z</i>
@@ -231,10 +229,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <label for="zoomCheck1">
     <img class="listing-qr-code" width="18px"  src="css/images/icons/qr-code-erc20.png" id="erc20">
   </label></p> -->
-               <input type="checkbox" id="zoomCheck3">
-  <label for="zoomCheck3">
+              
     <img class="listing-qr-code" src="../css/images/articles/listing-campaign/theta.jpeg" id="bnbawc">
-  </label>
+ 
           <button class="btn" data-clipboard-text="bnb1w9yuatmnjud9er5rkerd66xqzmpjgevnydgwmx">
             
            <p class="flex-item-p"><i  id="copy">bnb1w9yuatmnjud9er5rkerd66xqzmpjgevnydgwmx</i>
@@ -272,10 +269,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <label for="zoomCheck1">
     <img class="listing-qr-code" width="18px"  src="css/images/icons/qr-code-erc20.png" id="erc20">
   </label></p> -->
-            <input type="checkbox" id="zoomCheck4">
-  <label for="zoomCheck4">
+          
     <img class="listing-qr-code" src="../css/images/articles/listing-campaign/xvg.jpeg" id="bnbawc">
-  </label>
+  
         <button class="btn" data-clipboard-text="bnb1u6un3tfllkl3qvzys0fldcjzayll90h7qzgygl">
            
            <p class="flex-item-p"><i  id="copy">bnb1u6un3tfllkl3qvzys0fldcjzayll90h7qzgygl</i>   
@@ -307,6 +303,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 </main>
+
+ <div class="overlay_qr">
+   <div style="position: relative;width:100%;height:100vh;z-index:9999999">
+    <div class="qr-modal-wrapper">
+
+    </div>
+  </div>
+ </div>
 <!-- <h3 class="features-title f-bold">Get BNB</h3>
 <div class="widget-now">   <script type="text/javascript" src="https://changenow.io/dist/popup-widget.v1.js"></script><iframe id="widget-now" width="478" height="280" src="https://changenow.io/embeds/exchange-widget/v1?amount=1&from=btc&link_id=eaef57c8892eb3&to=bnb" frameborder="0" scrolling="no" style="overflow-y: hidden;">Can't load widget</iframe></div> -->
 <style type="text/css">
@@ -322,6 +326,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   .flex-item-fp {
     letter-spacing: unset;
     font-size: 20px;
+  }
+  .qr-modal-wrapper{
+
+    background:white;
+    border-radius:10px;
+    padding:10px;
+    box-sizing: border-box;
+    position:absolute;
+    z-index:9999999;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+
+  .overlay_qr{
+    width:100%;
+    height:100vh;
+    position: fixed;
+    z-index:999999;
+    background-color:rgba(0,0,0,.65);
+    top:0;
+    left:0;
+    display:none;
   }
   button.copy-button {
     width: 144px;
@@ -630,6 +657,24 @@ img.listing-qr-code {
 
   })
 */
+
+$('.listing-qr-code').click(function(){
+
+  let imgClone = $(this).clone();
+  imgClone.css({
+    width:'250px',
+    height:'250px'
+  })
+
+  imgClone.appendTo('.qr-modal-wrapper');
+  $('.overlay_qr').fadeIn(300).on('click',function(){
+    $(this).fadeOut(300);
+    $(this).find('.qr-modal-wrapper').html('');
+  })
+
+  
+
+})
 
 function copyStringToClipboard (str) {
    var el = document.createElement('textarea');
