@@ -1,6 +1,6 @@
 .header{
-    width: 1920px;
-    padding:33px 294px;
+    width: 100%;
+    padding:0 294px;
     height: 90px;
     box-sizing: border-box;
     background: #324B80;
@@ -10,8 +10,7 @@
     align-items: center;
     position: fixed;
     top:0;
-    left:50%;
-    transform:translateX(-50%);
+    left:0;
 	transition:all .3s ease-in-out;
 	z-index:999999;
 }
@@ -34,16 +33,47 @@ svg{
     display:flex;
 }
 
-.header__navigation ul{
-    display: flex;
-    list-style: none;
+.btn--mobile-menu{
+    position: absolute;
+    top:50%;
+    right:25px;
+    transform:translateY(-50%);
+    font-size:2em;
+    color:#fff;
+    display: none;
+    cursor: pointer;
 }
 
-.header__navigation ul li a{
+.header__navigation--mobile{
+    width:100%;
+    position: absolute;
+    top:100px;
+    height: auto;
+    left:0;
+    display: none;
+  
+}
+.header__navigation--mobile ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+    background:#324B80;
+    margin: 0;
+    padding: 0;
+}
+
+.header__navigation--mobile ul li{
+    padding:15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.header__navigation--mobile ul li a{
     text-decoration: none;
     color:white;
     text-transform: uppercase;
-    width:162px;
     display: block;
     font-family: Roboto;
     font-style: normal;
@@ -52,6 +82,37 @@ svg{
     line-height: 23px;
     letter-spacing: 3px;
     text-align: center;
+}
+.header__navigation ul{
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.header__navigation ul li{
+    padding:0 30px;
+    width: auto;
+}
+
+.header__navigation ul li a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.header__navigation ul li a:hover,.header__navigation--mobile ul li a:hover{
+
+    text-decoration: underline;
+
 }
 
 .btn--download{
@@ -66,8 +127,6 @@ svg{
     cursor: pointer;
    transition:height .3s ease-in-out,line-height .3s ease-in-out;
 
-    
-    
 }
 
 .btn--download:hover{
@@ -79,4 +138,90 @@ svg{
 .test{
     height: 150000px;
     width:100%;
+}
+
+
+@media only screen  and (max-width:1780px){
+
+    .header{
+        
+        padding:0 120px;
+        
+    }
+
+    
+}
+
+
+
+
+@media only screen  and (max-width:1450px){
+
+    .header{
+        
+        padding:0 60px;
+        
+    }
+
+}
+
+
+@media only screen  and (max-width:1450px){
+
+    .header{
+        
+        padding:0 20px;
+        
+    }
+
+    .header__navigation ul li a{
+        font-size:16px;
+    }
+
+
+
+    .header__navigation ul li{
+        padding:0 15px;
+    }
+    
+}
+
+
+@media only screen  and (max-width:1000px){
+
+    .header{
+        
+        padding:0 10px;
+        
+    }
+
+    .header__navigation ul li a{
+        font-size:16px;
+    }
+
+
+
+    .header__navigation ul li{
+        padding:0 7px;
+    }
+    
+}
+
+
+
+@media only screen  and (max-width:900px){
+
+    .btn--mobile-menu{
+        display: block;
+    }
+
+    .header__navigation ul{
+        display: none;
+    }
+
+    
+    .btn--download{
+     display: none;   
+    }
+    
 }
