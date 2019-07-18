@@ -126,8 +126,13 @@ svg{
     text-transform: uppercase;
     cursor: pointer;
    transition:height .3s ease-in-out,line-height .3s ease-in-out;
-
+    display:block!important;
 }
+
+
+
+
+
 
 .btn--download:hover{
    
@@ -219,9 +224,24 @@ svg{
         display: none;
     }
 
-    
+
     .btn--download{
-     display: none;   
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform:translate(-50%,-50%);
+    }
+    
+}
+
+
+@media only screen  and (max-width:500px){
+
+    
+
+    .btn--download{
+        width:160px;
+        font-size:14px;
     }
     
 }

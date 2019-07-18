@@ -51,10 +51,10 @@ $(function(){
 	  
 	  function renderList(list=[],el=document.body){
 			  
-								var count = 0;
+								
 								el.innerHTML='';
 							  list.forEach( i =>{
-								count++;
+								
 								
 								var new_el = document.createElement('tr'),
 									price,
@@ -92,14 +92,13 @@ $(function(){
 								var buyLink = `https://atomicwallet.io/buy-${i.fullName.toLowerCase()}`;
 								var iconName =  i.name.toLowerCase();
 								
-							  new_el.innerHTML = `<td>${count}.<span class="icon-wrap-crypto"><i class="icon icon-${iconName}"></i></span><a target="_blank" href="${i.coinLink}">${i.fullName}</a> (${i.name})</td>  
+							  new_el.innerHTML = `<td><span class="icon-wrap-crypto"><i class="icon icon-${iconName}"></i></span><a target="_blank" href="${i.coinLink}">${i.fullName}</a> (${i.name})</td>  
 								                    <td>${cap}</td>
 													<td><a href="${i.coinPriceLink}">${price}</a></td>  
 													<td>${volume}</td> 
 													<td>${change} &nbsp %</td> 
 													<td><div class="actions-button">
 														<a class = "get-w" href="${i.coinLink}">Get Wallet</a>
-														<a class = "buy-btn" href="${buyLink}">Buy</a>
 														</div>
 													</td>`
 							

@@ -92,14 +92,12 @@
 }
 .actions-button a{
     display:block;
-    width: 96px;
+    width: 196px;
     line-height: 34px;
     cursor: pointer;
     font-size: 17px;
-    background-color: #108bce;
-    border-radius: 6px;
-    border-color: unset;
-    border-bottom: #108bce;
+    background: #2FA6FA;
+	border-radius: 48px;
 	color:white!important;
 	text-align:center;
 	cursor:pointer;
