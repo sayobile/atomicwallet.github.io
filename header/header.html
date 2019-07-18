@@ -51,6 +51,7 @@
                     <li><a href="#">Assets</a></li>
                     <li><a href="#">Token</a></li>
                     <li><a href="#">Support</a></li>
+                    <li><div class="btn--download-menu">Download</div></li>
                 </ul>
             </nav>
         
@@ -79,16 +80,10 @@
             if(closedMenu){
 
                 if($('.header').hasClass('shrink')){
-                    $('.header__navigation--mobile').css({
-                        top:'50px'
-                    })
                     $('.header__navigation--mobile').slideDown(300);
                     $(this).find('i').removeClass('fa-bars').addClass('fa-times');
                     closedMenu = false;
                 }else{
-                    $('.header__navigation--mobile').css({
-                        top:'90px'
-                    })
                     $('.header__navigation--mobile').slideDown(300);
                     $(this).find('i').removeClass('fa-bars').addClass('fa-times');
                     closedMenu = false;

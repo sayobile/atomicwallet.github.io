@@ -47,8 +47,8 @@ svg{
 .header__navigation--mobile{
     width:100%;
     position: absolute;
-    top:90px;
-    height: auto;
+    top:0;
+    height: 100vh;
     left:0;
     display: none;
   
@@ -56,11 +56,13 @@ svg{
 .header__navigation--mobile ul{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     list-style: none;
     background:#324B80;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 .header__navigation--mobile ul li{
@@ -125,9 +127,24 @@ svg{
     line-height: 45px;
     text-transform: uppercase;
     cursor: pointer;
+    transition:height .3s ease-in-out,line-height .3s ease-in-out;
+}
+
+.btn--download-menu{
+    background: linear-gradient(360deg, #0075E2 0%, #41C1FD 100%, #41C1FD 100%);
+    border-radius: 48px;
+    color:white;
+    text-align: center;
+    width:188px;
+    height:45px;
+    line-height: 45px;
+    text-transform: uppercase;
+    cursor: pointer;
    transition:height .3s ease-in-out,line-height .3s ease-in-out;
     display:block!important;
+    margin: 0 auto;
 }
+
 
 
 
@@ -226,10 +243,7 @@ svg{
 
 
     .btn--download{
-        position: absolute;
-        left:50%;
-        top:50%;
-        transform:translate(-50%,-50%);
+        display:none;
     }
     
 }
