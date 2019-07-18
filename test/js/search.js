@@ -7,7 +7,7 @@ $(function(){
 		 
 		 const firstResponse = await fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=LNC,LRC,LBT,LUN,MCAP,MCO,MDA,MNE,MSP,MTH,MTL,MTX,MYST,NET,NMR,NXX,OAX,OPT,PAY,PIX,PLAY,PLBT,PLR,PLU,POE,POS,PRO,PTOY,QAU,BAT,RLT,RLX,RVT,SALT,SCL,SENSE,LSK,SKIN,SNC,SNGLS,SND,SNM,SNT,NEO,ONT,STX,SUB,SWT,TAAS,TBT,TFL,XVG,TIME,TIX,TKN,TNT,TRST,VERI,VIBE,VIB,VIU,VRS,VSL,VSM,WIC,WINGS,WAVES,XAUR,XID,XNN,XRL,BCPT,BIX,R,GTO,XEM,SRN,OCN,ELF,GVT,EVX,TNB,RUFF,AMB,BTM,THETA,POLY,APPC,JNT,QUN,NAS,DTA,SXUT,LEND,POWR,ITC,RCN,ENJ,RDN,MTN,REQ,WPR,DLT,GNX,ST,AST,CMT,AIDOC,YOYOW,NULS,MOD,UKG,BRD,GTC,BKX,MDS,CND,ENG,DPY,C20,LEV,ATM,STORM,MOF,QSP,QASH,SPHTX,CS,DRGN,ETHOS,DCN,NOW&tsyms=USD");
 		 const dataInfo = await firstResponse.json();
-		 const secondResponse = await fetch("assets.js");
+		 const secondResponse = await fetch("../assets.js");
 		 const dataNames = await secondResponse.json();
 		 
 		 
@@ -60,15 +60,8 @@ $(function(){
 									price,
 									volume,
 									cap,
-									change,
-									class_Type;
-									
-									if( typeof(i.coinType) !== 'undefined'){
-										class_Type = i.coinType;
-									}else{
-										class_Type = '';
-									}
-								new_el.setAttribute('class',i.coinType);
+									change;
+								
 								
 								
 								if(typeof i.price !== 'undefined'){
@@ -97,9 +90,9 @@ $(function(){
 								
 								
 								var buyLink = `https://atomicwallet.io/buy-${i.fullName.toLowerCase()}`;
-								var imgSrc =  `css/images/crypto-icon/${i.iconName}`;
+								var iconName =  i.name.toLowerCase();
 								
-							  new_el.innerHTML = `<td>${count}.<span><img src="${imgSrc}"></span><a target="_blank" href="${i.coinLink}">${i.fullName}</a> (${i.name})</td>  
+							  new_el.innerHTML = `<td>${count}.<span class="icon-wrap-crypto"><i class="icon icon-${iconName}"></i></span><a target="_blank" href="${i.coinLink}">${i.fullName}</a> (${i.name})</td>  
 								                    <td>${cap}</td>
 													<td><a href="${i.coinPriceLink}">${price}</a></td>  
 													<td>${volume}</td> 

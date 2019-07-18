@@ -28,7 +28,10 @@
 }
 
 
-
+.icon-wrap-crypto{
+	font-size:15px;
+	padding:0 5px;
+}
 
 
 
@@ -202,9 +205,8 @@
 		width:100px;
 	}
 	
-	.data-table-wrap table tbody tr td:first-child span img{
-		width: 30px;
-    margin: 0 5px;
+	.data-table-wrap table tbody tr td:first-child span{
+		font-size:13px;
 	}
 	
 	.data-table-wrap table thead tr td {
@@ -219,21 +221,29 @@
 }
 
 
+@media(max-width:510px){
+	.data-table-wrap table tbody tr td:first-child span{
+		font-size:8px;
+	}
+	.actions-button{
+		width:70px;
+	}
+
+	.data-table-wrap table tbody tr td:first-child{
+		flex-wrap:wrap;
+	flex-direction: column;
+	width:100px;
+	}
+}	
+
 @media(max-width:460px){
 	.data-table-wrap table tbody tr{
 		flex-wrap:wrap;
 	}
 	
-	.data-table-wrap table tbody tr td:first-child{
-		flex-wrap:wrap;
-	}
 	
-	.data-table-wrap table tbody tr td:first-child span img{
-		width: 15px;
-	}
+	
+	
 }
 
 
-.list-table-preloader{
-	
-}
