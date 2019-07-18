@@ -77,9 +77,22 @@
         $('.btn--mobile-menu').click(function(){
 
             if(closedMenu){
-                $('.header__navigation--mobile').slideDown(300);
-                $(this).find('i').removeClass('fa-bars').addClass('fa-times');
-                closedMenu = false;
+
+                if($('.header').hasClass('shrink')){
+                    $('.header__navigation--mobile').css({
+                        top:'50px'
+                    })
+                    $('.header__navigation--mobile').slideDown(300);
+                    $(this).find('i').removeClass('fa-bars').addClass('fa-times');
+                    closedMenu = false;
+                }else{
+                    $('.header__navigation--mobile').css({
+                        top:'90px'
+                    })
+                    $('.header__navigation--mobile').slideDown(300);
+                    $(this).find('i').removeClass('fa-bars').addClass('fa-times');
+                    closedMenu = false;
+                }
             }else{
                 $('.header__navigation--mobile').slideUp(300);
                 $(this).find('i').removeClass('fa-times').addClass('fa-bars');

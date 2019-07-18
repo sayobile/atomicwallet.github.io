@@ -12,10 +12,7 @@ $(function(){
                 transform:'scale(.75)',
                 paddingTop:'10px'
               })
-              
-            
-
-              
+ 
            }
            else {
                $('.header').removeClass('shrink');
