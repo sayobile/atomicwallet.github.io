@@ -92,9 +92,7 @@ body {
 	margin: 0 auto;
 	overflow-x: hidden;
 }
-body {
-	min-width: 1200px;
-}
+
 .relative {
     position: relative;
 }

@@ -1,4 +1,6 @@
 
+
+
 a.link-coins {
     color: #172A3F;
 }
@@ -44,12 +46,6 @@ outline:none;
 }
 
 
-.{
-	width: 100px;
-	height: 48px;
-	background: #2FA6FA;
-	border-radius: 48px;
-}
 
 .active-filter{
 	background:#2FA6FA!important;
@@ -76,7 +72,7 @@ outline:none;
 
 .input-wrapper i {
     position: absolute;
-    right:5px;
+    right:15px;
     top: 50%;
     transform: translate(0, -50%) rotate(90deg);
 	color:#B5BBC2;
