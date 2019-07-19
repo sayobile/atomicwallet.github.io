@@ -6,7 +6,7 @@
     background: #324B80;
     margin:0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: fixed;
     top:0;
@@ -31,6 +31,7 @@ svg{
 
 .header__logo{
     display:flex;
+    margin-right:90px;
 }
 
 .btn--mobile-menu{
@@ -124,6 +125,7 @@ svg{
     text-align: center;
     width:188px;
     height:45px;
+    margin-left:90px;
     line-height: 45px;
     text-transform: uppercase;
     cursor: pointer;
@@ -241,6 +243,12 @@ svg{
         display: none;
     }
 
+    .header__logo{
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 
     .btn--download{
         display:none;

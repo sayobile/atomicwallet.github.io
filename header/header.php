@@ -1,5 +1,6 @@
+
 <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../css/header.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <div class="header">
         
@@ -58,51 +59,7 @@
         <div class="btn--download">Download</div>
         <div class="btn--mobile-menu"><i class="fa fa-bars"></i></div>
     </div>
-
-    <div class="test"></div>
-
-
-    <!--script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script-->
-	<script src="jquery-3.3.1.min.js"></script>
-    <script src="scroll.js"></script>
-
-
-    <script>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/scroll.js"></script>'
     
-    $(function(){
-
-        var closedMenu = true;
-        $('.btn--mobile-menu').click(function(){
-
-            if(closedMenu){
-
-                if($('.header').hasClass('shrink')){
-                    $('.header__navigation--mobile').slideDown(300);
-                    $(this).find('i').removeClass('fa-bars').addClass('fa-times');
-                    closedMenu = false;
-                }else{
-                    $('.header__navigation--mobile').slideDown(300);
-                    $(this).find('i').removeClass('fa-bars').addClass('fa-times');
-                    closedMenu = false;
-                }
-            }else{
-                $('.header__navigation--mobile').slideUp(300);
-                $(this).find('i').removeClass('fa-times').addClass('fa-bars');
-                closedMenu = true;
-            }
-        })
-
-
-        $('.header__navigation--mobile ul li a').click(function(){
-            
-            $('.header__navigation--mobile').slideUp(300);
-            $('.btn--mobile-menu').find('i').removeClass('fa-times').addClass('fa-bars');
-            closedMenu = true;
-        })
-
-    })
     
-    </script>
