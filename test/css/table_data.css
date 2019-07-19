@@ -2,7 +2,8 @@
 
 .data-table-wrap{
 	margin:0 auto;
-	max-width:1170px;
+	padding: 0 50px;
+    box-sizing: border-box;
 }
 
 .data-table-wrap table{
@@ -14,19 +15,25 @@
 		font-size:18px;
 		padding:20px 0;
 		color:#627080;
+		text-transform: uppercase;
+		font-weight:500;
 }
 
 .data-table-wrap table thead tr td:last-child{
-		width:300px;
+		width:240px;
+		text-align: center;
 }
 .data-table-wrap table thead tr td:first-child{
 		width:300px;
 }
 
 .data-table-wrap table tbody tr td:last-child{
-		width:300px;
+		width:240px;
 }
 
+td.price-td a{
+	color: #2FA6FA!important;
+}
 
 .icon-wrap-crypto{
 	font-size:15px;
@@ -66,12 +73,17 @@
 
 }
 
+td.down{
+	color:red!important;
+}
+
+td.up{
+	color:#31D37D!important;
+}
 
 .data-table-wrap table tbody tr td a:hover{
 	
-    color: #108bce;
     text-decoration: underline;
-
 }
 
 .data-table-wrap table tbody tr td:first-child{
@@ -87,8 +99,8 @@
 
 .actions-button{
 	width: 210px;
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    margin:0 auto;
 }
 .actions-button a{
     display:block;

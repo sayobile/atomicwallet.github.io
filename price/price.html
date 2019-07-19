@@ -136,9 +136,19 @@ let ctx = document.getElementById('graphic').getContext('2d');
 let labels = ['January','February','March','April','May','June']
 
 let chart = new Chart(ctx, {
-    type: 'line',
-    data:[20,10],
-    labels:labels
+   type:'line',
+    data:{
+        labels:labels,
+        datasets:[
+            {
+                backgroundColor:'rgba(255,255,255,0)',
+                borderColor:'green',
+                data:[56,57,78,10,33,55,89]
+            }
+        ]
+
+
+    }
     
 })
 
