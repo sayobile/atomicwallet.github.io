@@ -879,7 +879,7 @@ text-align: center;
     position: relative;
   }
   .flex {
-    z-index: 100;
+    z-index: 4;
     padding-top: 150px;
     position: relative;
   }
