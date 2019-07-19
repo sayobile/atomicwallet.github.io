@@ -22,22 +22,25 @@
       margin-top: 0px;
     }
     .details__container h3.flex-item-p {
-      padding-left: 0px;
-      margin-left: 0px;
+
     }
     .details__container--feature__icon{
         display:flex;
         flex-direction:column;
         justify-content:center;
         align-items: center;
+        padding-right: 10px;
+        padding-top: 15px;
     }
 
     .details__container--feature{
         display: flex;
         width: 100%;
+        max-width: 680px;
         align-items:flex-start;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin: 0 auto;
     }
 
     .item-feature{
@@ -52,10 +55,9 @@
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
-        font-size: 10px;
+        font-size: 14px;
         text-align: center;
-        color: #D79431;
-        margin-top:-10px;
+        color: #3fbdfd;
     }
 
   
@@ -63,10 +65,9 @@
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 10px;
+        font-size: 14px;
         text-align: center;
         color: #F1B70B;
-        margin-top:-10px;
     }
 
 
@@ -74,20 +75,18 @@
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 10px;
+        font-size: 14px;
         text-align: center;
-        color: #CCCBC7;
-        margin-top:-10px;
+        color: #868686;
     }
 
     .platinum--text{
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 10px;
+        font-size: 14px;
         text-align: center;
         color: #626161;
-        margin-top:-10px;
     }
 
     .details__container--feature__info{

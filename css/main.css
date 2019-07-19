@@ -548,7 +548,7 @@ box-shadow: none;
  */
 .main {
 	padding-bottom: 95px;
-	padding-top: 260px;
+	padding-top: 230px;
 }
 .main-title {
 	width: 500px;
@@ -560,7 +560,7 @@ box-shadow: none;
 }
 .main-subtitle {
 	width: 480px;
-	line-height: 20px;
+	line-height: 30px;
 	font-size: 19px;
 	color: #121010;
 	margin-top: 30px;
