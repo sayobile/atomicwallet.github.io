@@ -275,10 +275,7 @@
 /* end index-1 test */
 	/* /bg */
 	/* header */
-	.header {
-        height: 95px;
-        background-color: #182848;
-    }
+
     .header-container > .container {
 		width: 100%;
 		padding: 0px;
@@ -352,7 +349,7 @@
 	/* main */
 	.main {
 		padding-bottom: 0;
-		padding-top: 40px;
+		padding-top: 130px;
 	}
 
 	.main-mobile-title {

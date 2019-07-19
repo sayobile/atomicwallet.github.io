@@ -283,6 +283,7 @@ main.support {
 .item-page-container {
     overflow: hidden;
     margin-top: 0;
+    padding-top: 150px !important;
 }
 .head-article {
 
@@ -1093,7 +1094,7 @@ li> .item-page-image-template {
         min-width: 100%;
         }
         .item-page-container {
-        margin-top: -128px;
+        /*margin-top: -128px;*/
         background-color: white;
         }
        .item-page-article {
