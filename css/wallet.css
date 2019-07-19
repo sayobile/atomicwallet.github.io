@@ -398,6 +398,7 @@ color: #929EAA;
 .item-page-container {
     overflow: hidden;
     margin-top: 0;
+    padding-top: 50px;
 }
 .head-article {
 
@@ -1228,6 +1229,7 @@ ul .article-li {
 .widget-price,
 .widget-cc {
   width: 800px;
+  overflow: hidden;
 }
 .center {
   text-align: center !important;
@@ -1317,7 +1319,7 @@ ul .article-li {
         min-width: 100%;
         }
         .item-page-container {
-        padding-top: 20px;
+        padding-top: 100px;
         /* margin-top: -128px; */
         /* background-color: white; */
         }
@@ -1437,6 +1439,9 @@ ul .article-li {
     }
     .list-items {
         display: block;
+    }
+    .buy-coin-wrapper {
+        grid-template-columns: 320px;
     }
 
 
@@ -1873,6 +1878,7 @@ ul .article-li {
     }
     .buy-coin {
     max-width: 1377px;
+    padding-top: 150px;
    }
       .buy-coin-wrapper {
       grid-gap: 22px;

@@ -13,9 +13,12 @@
     <meta name="twitter:image" content="https://atomicwallet.io/css/images/main-page-twitter.png">
     <meta name="description" content="Manage your Bitcoin, Ethereum, XRP, Litecoin, Stellar and over 300 tokens in Atomic secure wallet interface. Exchange and buy crypto for USD with credit card.">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/test-media.css">
     <!-- <link rel="stylesheet" href="css/aos.css"> -->
     <link rel="stylesheet" href="test/css/item-page-blog.css">
+
 
     <meta property="og:title" content="Atomic Wallet"/>
     <meta property="og:description" content="Manage your Bitcoin, Ethereum, XRP, Litecoin, Stellar and over 300 tokens in Atomic secure wallet interface. Exchange and buy crypto for USD with credit card."/>
@@ -71,57 +74,38 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     AOS.init();
   </script>
  -->
-<div class="only-mobile header-menu-mobile header-menu-close f-light" id="menu-mobile">
-    <div class="container relative">
-        <a href="/" class="header-menu-here">Wallet</a>
-        <a href="https://atomicwallet.io/buy-bitcoin">Buy Bitcoin</a>
-        <a href="/assets">Assets</a>
-        <a href="/downloads">Download</a>
-        <a href="https://support.atomicwallet.io/">Support</a>
-        <a href="https://atomicwallet.io/token">Token</a>
-        <button class="header-menu-mobile-close" id="menu-button-close"></button>
-    </div>
-</div>
-<div class="header-container">
-<div class="container relative">
-    <img src="css/images/bg-first-screen.svg" alt class="bg bg-main">
-    <header class="header">
-        <a href="https://atomicwallet.io" class="header-logo">
-            <img src="css/images/logo.svg" alt="Atomic" class="img-logo">
-        </a>
-        <nav class="header-menu f-light">
-            <a href="/" class="header-menu-here hvr-grow">Wallet</a>
-            <a href="https://atomicwallet.io/buy-bitcoin" class="hvr-grow">Buy Bitcoin</a>
-            <a href="assets" class="hvr-grow">Assets</a>
-            <a href="/downloads" class="hvr-grow">Download</a>
-            <a href="https://support.atomicwallet.io/" target="_blank" class="hvr-grow">Support</a>
-            <a href="https://atomicwallet.io/token" class="hvr-grow">Token</a>
+<div class="header">
+        
+        <a href="https://atomicwallet.io" class="header__logo">
+                <img class="website-logo" src="css/images/icons/atomic-website-logo.svg">
+            </a>
+    
+        <nav class="header__navigation">
+            <ul>
+                <li><a href="https://atomicwallet.io/">Wallet</a></li>
+                <li><a href="https://atomicwallet.io/buy-bitcoin">Buy bitcoin</a></li>
+                <li><a href="https://atomicwallet.io/cryptocurrency-prices">Assets</a></li>
+                <li><a href="https://atomicwallet.io/token">Token</a></li>
+                <li><a href="https://support.atomicwallet.io/">Support</a></li>
+            </ul>
         </nav>
-        <nav class="header-menu-icons  f-light">
 
-            <a href="https://twitter.com/atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
-                <img src="css/images/top_twitter.svg">
-            </a>
-            <a href="https://t.me/atomicwalletchat" target="_blank" class="hvr-float" rel="nofollow">
-                <img src="css/images/top_telegram.svg">
-            </a>
-            <a href="https://medium.com/atomic-wallet" target="_blank" class="hvr-float" rel="nofollow">
-                    <img src="css/images/top_medium.svg">
-                </a>
-            <a href="https://www.facebook.com/atomicwallet" target="_blank" class="hvr-float" rel="nofollow">
-                    <img src="css/images/top_facebook.svg">
-                </a>
-            <a href="https://www.reddit.com/r/atomicwallet/" target="_blank" class="hvr-float" rel="nofollow">
-                <img src="css/images/top_reddit.svg">
-            </a>
-             <a href="https://www.youtube.com/channel/UCLMnUt6BBtA67eic1vRGF3g" target="_blank" class="hvr-float" rel="nofollow">
-                <img src="css/images/top_youtube.svg">
-            </a>
-        </nav>
-        <button class="header-button only-mobile" id="menu-button-open"></button>
-    </header>
-</div>
-</div>
+
+
+        <nav class="header__navigation--mobile">
+                <ul>
+                    <li><a href="https://atomicwallet.io/">Wallet</a></li>
+                    <li><a href="https://atomicwallet.io/buy-bitcoin">Buy bitcoin</a></li>
+                    <li><a href="https://atomicwallet.io/cryptocurrency-prices">Assets</a></li>
+                    <li><a href="https://atomicwallet.io/token">Token</a></li>
+                    <li><a href="https://support.atomicwallet.io/">Support</a></li>
+                    <li><a href="#download"><div class="btn--download-menu">Download</div></a></li>
+                </ul>
+            </nav>
+        
+        <a href="#download"><div class="btn--download">Download</div></a>
+        <div class="btn--mobile-menu"><i class="fa fa-bars"></i></div>
+    </div>
 
 <main class="main">
     <div class="container relative">
@@ -185,7 +169,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="swiper-slide">
                     <div class="comments-item comments-item-reviews">
                         <div class="team-author hvr-grow">
-                           <a href="https://twitter.com/cz_binance/status/1119047237076541440" rel="nofollow" target="_blank"> <img src="https://pbs.twimg.com/profile_images/1118864185155149824/rC5M1VzB_bigger.png" width="65px;" class="team-author-avatar" alt></a>
+                           <a href="https://twitter.com/cz_binance/status/1119047237076541440" rel="nofollow" target="_blank"> <img src="https://pbs.twimg.com/profile_images/1148212647319334912/4Tp-7Uac_400x400.png" width="65px;" class="team-author-avatar" alt></a>
                             <div class="team-author-name f-medium">CZ Binance</div>
                         </div>
                         <div><img src="css/images/trustpilot.png" style="margin-bottom: 15px;" alt="">
@@ -199,7 +183,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="comments-item comments-item-reviews">
                         <div class="team-author hvr-grow">
                           <a href="https://twitter.com/CharlieShrem/status/1009538446678020104?s=09" rel="nofollow" target="_blank">
-                           <img src="https://pbs.twimg.com/profile_images/865954659084775424/2SRmI8-d_bigger.jpg" class="team-author-avatar" alt>
+                           <img src="https://pbs.twimg.com/profile_images/865954659084775424/2SRmI8-d_bigger.jpg" width="65px" class="team-author-avatar" alt>
                             <div class="team-author-name f-medium">Charlie Shrem</div></a> 
                         </div>
                         <div><img src="css/images/trustpilot.png" style="margin-bottom: 15px;" alt="">
@@ -507,7 +491,7 @@ They are very active to make sure that we are updated regularly, It is a quality
       <div class="swiper-slide"> 
                         <div class="comments-item comments-item-reviews">
                         <div class="team-author hvr-grow">
-                            <a href="https://twitter.com/CharlieShrem/status/1009538446678020104?s=09" rel="nofollow" target="_blank"><img src="https://pbs.twimg.com/profile_images/865954659084775424/2SRmI8-d_bigger.jpg" class="team-author-avatar" alt>
+                            <a href="https://twitter.com/CharlieShrem/status/1009538446678020104?s=09" rel="nofollow" target="_blank"><img src="https://pbs.twimg.com/profile_images/865954659084775424/2SRmI8-d_bigger.jpg" width="65px" class="team-author-avatar" alt>
                             <div class="team-author-name f-medium">Charlie Shrem</div>
                             
                                 </a>
@@ -1305,6 +1289,8 @@ In addition to being a decentralized wallet AW gives you the ability to do token
 <script> (function() { var v = document.getElementsByClassName("youtube-player"); for (var n = 0; n < v.length; n++) { v[n].onclick = function () { var iframe = document.createElement("iframe"); iframe.setAttribute("src", "//www.youtube.com/embed/" + this.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&rel="+ this.dataset.related +"&controls="+this.dataset.control+"&showinfo=" + this.dataset.info); iframe.setAttribute("frameborder", "0"); iframe.setAttribute("id", "youtube-iframe"); iframe.setAttribute("style", "width: 100%; height: 100%; position: absolute; top: 0; left: 0;"); if (this.dataset.fullscreen == 1){ iframe.setAttribute("allowfullscreen", ""); } while (this.firstChild) { this.removeChild(this.firstChild); } this.appendChild(iframe); }; } })(); </script>
 <!-- TrustBox script --> <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script> <!-- End TrustBox script -->
 <script src="js/app.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/scroll.js"></script>
 
     <script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});</script>
 <script type="text/javascript">window.Beacon('init', 'e947e766-402f-44b0-8f02-3ed79a72263c')</script>
