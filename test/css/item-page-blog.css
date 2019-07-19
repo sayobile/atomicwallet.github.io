@@ -347,8 +347,8 @@ ul .article-li {
     text-decoration: none !important;
     }
     .button-wallet:hover {
-        background-color: #369127;
-        transition: all .5s;
+        background-color: #2FA6FA;
+        transition: all .1s;
     }
 .widget-cmc {
     width: 850px;
