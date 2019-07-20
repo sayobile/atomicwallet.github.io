@@ -233,3 +233,12 @@ p.item-feature__short-caption-feature{
         margin-top: 50px;
     }
 }
+
+@media only screen and (max-width: 1450px)
+{
+    .container-price {
+        
+        padding:125px 20px;
+    
+    }
+}
