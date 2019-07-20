@@ -71,6 +71,7 @@
 
     <div class="breadcrumbs">
         <a href="#">Prices</a>
+            >
         <a href="#">Bitcoin price</a>
     </div>
 
@@ -200,7 +201,7 @@ way
                             </svg>
                                 
                     </div>
-                    <div class="logo-name-info">
+                    <div class="name-info">
                         <span>Ethereum</span>
                         <span>ETH</span>
                     </div>
@@ -235,6 +236,16 @@ way
     height:460px!important;
 }
 
+.breadcrumbs{
+    color:#324B80;
+    margin-left:30px;
+}
+
+.breadcrumbs a{
+    color:#324B80;
+    text-decoration: none;
+    font-size:18px;
+}
 .graphic-content{
     width:991px;
 }
@@ -253,6 +264,11 @@ way
     display:flex;
     align-items:center;
 }
+
+.list-crypto{
+    width:435px;
+    margin-left: 50px;
+}
 .logo-crypto i{
     font-size:2.5em;
     margin-left:30px;
@@ -268,6 +284,7 @@ way
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    margin-right:15px;
 }
 
 .price-info span{
@@ -299,7 +316,7 @@ way
 .short-caption p{
     font-size: 18px;
 line-height: 32px;
-padding:40px 20px ;
+padding:40px 30px ;
 color:#324B80;
 }
 .wrapper-features{
@@ -310,8 +327,110 @@ color:#324B80;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:185px;
+    width:180px;
 }
+
+.list-other-cryptos{
+    margin-top:56px;
+}
+
+.list-item-crypto{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition:all .3s ease-in-out;
+}
+
+.list-item-crypto:hover{
+   background: #F0F9FF;
+}
+
+
+.price-another-crypto span{
+    color:#324B80;
+    font-size:24px;
+    font-weight:500;
+}
+
+.logo-name-info{
+    display: flex;
+    align-items: center;
+}
+
+.name-info{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.name-info span{
+    margin-left:10px;
+}
+
+.name-info span:first-child{
+    font-size:24px;
+    color:#324B80;
+    margin-bottom:5px;
+}
+
+
+.name-info span:nth-child(2){
+    font-size:18px;
+    color:#929EAA;
+}
+
+.features-block-container{
+    margin-left:30px;
+}
+
+.list-crypto button{
+    background: #2FA6FA;
+    border-radius: 48px;
+    text-transform: uppercase;
+    width: 433px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    height: 64px;
+    outline: none;
+}
+
+.features-block-container h2{
+    margin:0;
+    padding-bottom:50px;
+    color:#324B80;
+    font-size:36px;
+}
+
+.item-feature__title-feature{
+    margin:0;
+    padding:15px 0;
+    color:#324B80;
+    font-size:24px;
+}
+
+p.item-feature__short-caption-feature{
+    text-align: center;
+    margin:0;
+    padding:0;
+    color:#324B80;
+    font-size:18px;
+}
+
+@media only screen and (max-width: 1780px){
+    .container-price{
+        padding:125px 120px;
+        box-sizing:border-box;
+}
+
+}
+
+
+
+
 </style>
 
 <script src="../js/jquery-3.3.1.min.js"></script>
