@@ -21,6 +21,9 @@
 		margin-top: 50px;
 		right: -350px;
 	}
+	.main {
+		padding-top: 180px;
+	}
 
 
 
@@ -51,6 +54,12 @@
    	}
 
 }
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
+	.main {
+    	padding-top: 180px;
+    }
+
+}
 
 @media screen and (min-width: 1300px) and (max-width: 1920px) {
 	.main-notebook {
@@ -69,6 +78,7 @@
 	 .partners-list {
     /*max-width: 800px;*/
     }
+    
   
   /* flex */
 
@@ -275,10 +285,7 @@
 /* end index-1 test */
 	/* /bg */
 	/* header */
-	.header {
-        height: 95px;
-        background-color: #182848;
-    }
+
     .header-container > .container {
 		width: 100%;
 		padding: 0px;
@@ -352,7 +359,7 @@
 	/* main */
 	.main {
 		padding-bottom: 0;
-		padding-top: 40px;
+		padding-top: 130px;
 	}
 
 	.main-mobile-title {

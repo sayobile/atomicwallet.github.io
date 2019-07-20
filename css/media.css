@@ -63,6 +63,9 @@
 	.partners-list {
 		max-width: 1300px;
 			}
+	.main {
+		padding-top: 180px;
+	}
 }
 
 @media screen and (max-width: 830px) {
@@ -277,10 +280,7 @@
 /* end index-1 test */
 	/* /bg */
 	/* header */
-	.header {
-        height: 95px;
-        background-color: #182848;
-    }
+
 	.header-menu {
 		display: none;
 	}
@@ -350,7 +350,7 @@
 	/* main */
 	.main {
 		padding-bottom: 0;
-		padding-top: 40px;
+		padding-top: 100px;
 	}
 
 	.main-mobile-title {
@@ -937,7 +937,7 @@
 	/* /footer */
 	/* page */
 	.page {
-		margin-top: 20px;
+		margin-top: 100px;
 	}
 
 	.page-title {

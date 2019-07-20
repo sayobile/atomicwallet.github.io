@@ -1,0 +1,323 @@
+  .flex-container {
+    display: flex;
+    margin: 0 auto;
+    flex-flow: row;
+    justify-content: space-between;
+    max-width: 1190px;
+    width: 940px;
+    flex-wrap: wrap;
+  }
+  .flex-item-column {
+        display: flex;
+    align-items: flex-start;
+    width: 100%;
+    flex-flow: column;
+    justify-content: end;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .flex-item-fp {
+    letter-spacing: unset;
+    font-size: 20px;
+  }
+  .qr-modal-wrapper{
+
+    background:white;
+    border-radius:10px;
+    padding:10px;
+    box-sizing: border-box;
+    position:absolute;
+    z-index:9999999;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+#progress-cnd, #progress-harmony, #progress-enigma, #progress-fantom, #progress-hydro, #progress-monetha, #progress-oax, #progress-propy, #progress-ren, #progress-storm, #progress-telecoin, #progress-tierion, #progress-verasity, #progress-raiden, #progress-cryptocom, #progress-poet  {
+    float: left;
+    border-radius: 6px;
+    height: 20px;
+    background: #3fbdfd;
+    z-index: 333;
+    border: 4.32172px solid #3fbdfd;
+  }
+  .overlay_qr{
+    width:100%;
+    height:100vh;
+    position: fixed;
+    z-index:999999;
+    background-color:rgba(0,0,0,.65);
+    top:0;
+    left:0;
+    display:none;
+  }
+  button.copy-button {
+    width: 144px;
+    padding: 7px;
+    background-color: #3fbdfd;
+    border-radius: 41px;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+button {
+  background: unset;
+    border-width: unset;
+    border: none;
+    font: inherit;
+    outline: none;
+}
+button.copy-button:hover {
+    transition: all .3s;
+    background-color: #43c73a;
+}
+.copy-button:active {
+ 
+    transform: translateY(1px);
+ 
+}
+  .flex-item-listing {
+    display: flex;
+    flex-flow: column;
+    width: 450px;
+    justify-content: end;
+    padding: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  .flex-item-listing .flex-item-header {
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: .3px;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    border-bottom: unset;
+    align-items: center;
+    height: 43px;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+ .flex-item-header  .flex-item-image {
+    padding-right: 5px;
+    padding-left: unset;
+  }
+  .flex-item-listing p.flex-item-p {
+    margin-top: 0.5rem;
+    max-width: 100%;
+    position:relative;
+  }
+
+  .copy-span{
+    position:absolute;
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size:11px;
+    line-height: 31px;
+    width: 84px;
+    height: 31px;
+    top:-27px;
+    right:-80px;
+    color: #6D6D6D;
+    cursor: pointer;
+    display:none;
+  }
+
+  
+  .copy-span-copied{
+    position:absolute;
+    background: rgba(255, 255, 255, 0.88);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-size:11px;
+    line-height: 31px;
+    width: 84px;
+    height: 31px;
+    top:-27px;
+    right:-80px;
+    color: #6D6D6D;
+    cursor: pointer;
+    display:none;
+  }
+
+
+  input[type=checkbox] {
+  display: none;
+}
+input[type=checkbox]:checked ~ label > img {
+  padding: 44px 0;
+    width: 115px;
+    height: 115px;
+    box-sizing: content-box;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    cursor:zoom-out;
+    animation:imgZoom;
+}
+
+
+
+@keyframes imgZoom{
+
+    from{
+    
+          
+         transform: translateX(0) scale(0);
+    
+    }
+    
+    to{
+        
+        transform-origin:center center;
+         transform: translateX(-50%) scale(1);
+        
+    }
+
+
+
+}
+
+
+
+img.listing-qr-code {
+  width: 20px;
+  transition: all 0.5s ease;
+  cursor: zoom-in;
+  image-rendering: pixelated;
+  margin-left: 5px;
+}
+.flex-item-p a, .token-list a {
+    color: rgb(48, 72, 123);
+    text-decoration: underline;
+    word-break: break-word;
+    font-size: 15px;
+  }
+  .flex-item-p i {
+        color: rgb(48, 72, 123);
+    text-decoration: underline;
+    word-break: break-word;
+    font-size: 15px;
+    font-style: normal;
+    cursor: pointer;
+    word-break: unset;
+  }
+ /* .flex-item-p i:before {
+  border-radius: 8px 8px 8px 0px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  content: attr(data-tooltip);
+  opacity: 0;
+  transition: all 0.4s ease-in-out; 
+  visibility: hidden;
+  padding: 3px 7px;
+  position: absolute;
+  margin-left: 5px;
+}
+ .flex-item-p i:hover::before {
+  opacity: 1;
+  visibility: visible;;
+ }*/
+
+ /*
+  #copy:active::after {
+  border-radius: 8px 8px 8px 0px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  content: attr(data-tooltip-copied);
+  opacity: 0;
+  transition: 5s; 
+  visibility: hidden;
+  padding: 3px 7px;
+  position: absolute;
+  margin-left: 5px;
+  }
+  #copy:active::after {
+    opacity: 1;
+    visibility: visible;
+  }
+*/
+  .btn {
+    margin-left: 5px;
+  }
+  @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+  
+  #progress-usdt,
+  #progress-zil,
+  #progress-theta,
+  #progress-xvg {
+    /*STEP 1 |||||||||||||||||||||||*/
+    /*||||||||||||CHANGE||||||||||||*/
+
+               width:; 
+
+    /*||||||||||PERCENTAGE||||||||||*/
+    /*||||||||||||||||||||||||||||||*/
+    /*Next step is at the bottom! Scroll down!*/
+
+    float: left;
+    border-radius: 6px;
+    height: 20px;
+    background: #3fbdfd;
+    z-index: 333;
+
+  }
+
+  #countdown-wrap {
+    width: 100%;
+  }
+  #goal {
+    font-size: 20px;
+    text-align: right;
+  }
+  #glass {
+    width: 100%;
+    height: 20px;
+    border-radius: 6px;
+    float: left;
+    overflow: hidden;
+    background-color: #dee0e0;
+  }
+  .goal-stat {
+    height: 30px;
+    float: left;
+    margin-right: 50px;
+    padding-top: 5px;
+  }
+  #goals-wrap {
+        height: 30px;
+    padding-top: 5px;
+    float: right;
+    margin: 0;
+  }
+  @media only screen and (max-width: 540px) {
+    #goal {
+      text-align: center;
+    }
+    #glass {
+      width: 100%;
+    }
+    .flex-container {
+      width: 100%;
+    }
+  }
+
+  
+  @media only screen and (max-width: 540px) {
+    .goal-stat {
+      width: 60%;
+    }
+  }
+  .goal-number,
+  .goal-label {
+    display: block;
+    font-size: 20px;
+  }
+  .goal-number {
+    font-weight: bold;
+  }
+  #goal-words {
+    font-size: 20px;
+  }
