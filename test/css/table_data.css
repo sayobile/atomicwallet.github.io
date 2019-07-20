@@ -20,7 +20,7 @@
 }
 
 .data-table-wrap table thead tr td:last-child{
-		width:240px;
+		width:188px;
 		text-align: center;
 }
 .data-table-wrap table thead tr td:first-child{
@@ -28,7 +28,7 @@
 }
 
 .data-table-wrap table tbody tr td:last-child{
-		width:240px;
+		width:188px;
 }
 
 td.price-td a{
@@ -43,7 +43,7 @@ td.price-td a{
 
 
 .data-table-wrap table thead tr{
-	border-bottom: 1px solid rgba(24, 40, 72, 0.5);
+	border-bottom: 1px solid #D1D8E2;
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
@@ -92,19 +92,83 @@ td.up{
 		width:300px;
 }
 
-.data-table-wrap table tbody tr td:first-child span img{
-		width:38px;
-		margin:0 15px;
+
+.data-table-wrap table thead tr td:nth-child(2){
+	width:110px;
+	text-align: right;
 }
 
+
+.data-table-wrap table tbody tr td:nth-child(2){
+	width:110px;
+	text-align: right;
+
+}
+
+.data-table-wrap table thead tr td:nth-child(3){
+	width:125px;
+	text-align: right;
+}
+
+
+.data-table-wrap table tbody tr td:nth-child(3){
+	width:125px;
+	text-align: right;
+}
+
+.data-table-wrap table thead tr td:nth-child(4){
+	width:130px;
+	text-align: right;
+}
+
+
+.data-table-wrap table tbody tr td:nth-child(4){
+	width:130px;
+	text-align: right;
+}
+
+
+.data-table-wrap table thead tr td:nth-child(5){
+	width:130px;
+	text-align: right;
+}
+
+
+.data-table-wrap table tbody tr td:nth-child(5){
+	width:130px;
+	text-align: right;
+}
+
+.data-table-wrap table thead tr td:nth-child(6){
+	width:216px;
+	text-align: right;
+}
+
+
+.data-table-wrap table tbody tr td:nth-child(6){
+	width:216px;
+	text-align: right;
+}
+
+
+
+
+
+
+.data-table-wrap table tbody tr td:first-child a{
+	margin-left:45px;
+}
+
+
+
 .actions-button{
-	width: 210px;
+	width: 188px;
     display: block;
     margin:0 auto;
 }
 .actions-button a{
     display:block;
-    width: 188px;
+    width: 100%;
     line-height: 48px;
     cursor: pointer;
 	font-size: 18px;
