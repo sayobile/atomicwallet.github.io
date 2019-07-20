@@ -63,8 +63,6 @@ $(function(){
 								
 								el.innerHTML='';
 							  list.forEach( i =>{
-								
-								
 								var new_el = document.createElement('tr'),
 									price,
 									volume,
@@ -126,17 +124,17 @@ $(function(){
 							  </svg>
 							  </td--> 
 							  <td><div class="actions-button">
-								  <a class = "get-w" href="${i.coinLink}">Get Wallet</a>
+								  <a class="get-w" href="${i.coinLink}">Get Wallet</a>
 								  </div>
 							  </td>
+							  
+								<a class="clickable_zone" target="_blank" href="https://atomicwallet.io/${i.fullName.toLowerCase()}-price"></a>
+							 
 							  `
 							
 								el.appendChild(new_el);
 								
-								$('.clickable_zone').click(function(){
-									window.open(i.coinLink, '_blank');
-									return;
-								})
+							
 							  })
 							removePreloader();			
 						
