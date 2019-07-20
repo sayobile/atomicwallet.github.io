@@ -67,9 +67,12 @@ td.price-td a{
 		color:#172A3F;
 		text-align:center;
 		position: relative;
-		z-index: 20;
 }
 
+.full-name-td{
+	text-align: left;
+	margin-left:30px;
+}
 
 .data-table-wrap table tbody tr td a{
 		color:#172A3F;
@@ -84,12 +87,12 @@ td.up{
 }
 
 .clickable_zone{
-	position: absolute!important;
-    left: 0!important;
-    z-index: 15!important;
-    width: 80%!important;
-	height: 95%!important;
-	cursor: pointer!important;
+	position: absolute;
+    left: 0;
+    z-index: 15;
+    width: 80%;
+	height: 95%;
+	cursor: pointer;
 }
 
 .data-table-wrap table tbody tr:hover{
@@ -97,10 +100,7 @@ td.up{
 	transition:all .3s ease-in-out;
 }
 
-.data-table-wrap table tbody tr td a:hover{
-	
-    text-decoration: underline;
-}
+
 
 .data-table-wrap table tbody tr td:first-child{
 		display:flex;
@@ -171,10 +171,6 @@ td.up{
 
 
 
-.data-table-wrap table tbody tr td:first-child a{
-	margin-left:30px;
-	text-align: left;
-}
 
 
 

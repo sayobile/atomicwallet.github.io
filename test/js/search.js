@@ -5,7 +5,11 @@ $(function(){
 	 
 	 async function getData(){
 		 
-		 const firstResponse = await fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=LNC,BTC,LRC,LBT,LUN,MCAP,MCO,MDA,MNE,MSP,MTH,MTL,MTX,MYST,NET,NMR,NXX,OAX,OPT,PAY,PIX,PLAY,PLBT,PLR,PLU,POE,POS,PRO,PTOY,QAU,BAT,RLT,RLX,RVT,SALT,SCL,SENSE,LSK,SKIN,SNC,SNGLS,SND,SNM,SNT,NEO,ONT,STX,SUB,SWT,TAAS,TBT,TFL,XVG,TIME,TIX,TKN,TNT,TRST,VERI,VIBE,VIB,VIU,VRS,VSL,VSM,WIC,WINGS,WAVES,XAUR,XID,XNN,XRL,BCPT,BIX,R,GTO,XEM,SRN,OCN,ELF,GVT,EVX,TNB,RUFF,AMB,BTM,THETA,POLY,APPC,JNT,QUN,NAS,DTA,SXUT,LEND,POWR,ITC,RCN,ENJ,RDN,MTN,REQ,WPR,DLT,GNX,ST,AST,CMT,AIDOC,YOYOW,NULS,MOD,UKG,BRD,GTC,BKX,MDS,CND,ENG,DPY,C20,LEV,ATM,STORM,MOF,QSP,QASH,SPHTX,CS,DRGN,ETHOS,DCN,NOW&tsyms=USD");
+
+
+
+		 const stringTicket = 'BTC,XRP,ETH,BCH,XLM,EOS,LTC,USDT,ADA,XMR,BSV,TRX,DASH,BNB,ETC,NEO,ONT,XTZ,ZEC,XVG,WAVES,BTG,VET,LSK,MKR,OMG,MGO,DOGE,ZRX,DCR,QTUM,AE,ZIL,BCD,DGB,NPXS,PMA,MITH,TUSD,GUSD,AWC,USDC,PPT,PAX,REP,GNT,HOT,IOST,WAX,BZNT,DGTX,MANA,WTC,NEXO,BNT,TPAY,BTT,DAI,VTHO,SMART,EURS,ABYSS,MXM,XYO,ODE,1ST,300,ADST,ADT,ADX,AIR,ALIS,AMIS,ANT,APT,ARC,ARN,ART,ATH,IOTX,ATL,AVT,BCDN,BET,BLX,BMC,BMT,BNC,BRAT,BQX,BTE,CAG,CAT,CCC,CDT,CFI,CMC,COB,CRB,CREDO,CVC,DATA,DDF,DENT,DICE,DNT,DRP,EDG,ELIX,EURT,FRD,FUEL,FUN,GBT,GNO,GUP,HGT,HST,ICE,ICN,ICOS,IFT,IND,IXT,JET,KICK,KIN,KNC,RFR,LATX,LIFE,LINK,LNC,LRC,LUN,MCAP,MCO,MDA,MNE,MSP,MTH,MTX,MYST,NET,NMR,NXX,OAX,OPT,PAY,PIX,PLAY,PLBT,PLR,PLU,POE,POS,PRO,PTOY,QAU,BAT,RLT,RLX,RVT,SALT,SCL,SENSE,SKIN,SNC,SNGLS,SND,SNM,SNT,STX,SUB,SWT,TaaS,TBT,TFL,TIME,TIX,TKN,TNT,TRST,VERI,VIBE,VIB,VIU,VRS,VSL,WiC,WINGS,WOLK,XAUR,XID,XNN,XRL,BCPT,BIX,R,GTO,SRN,OCN,ELF,GVT,EVX,TNB,RUFF,AMB,THETA,POLY,APPC,JNT,QUN,NAS,DTA,SXUT,LEND,POWR,ITC,RCN,ENJ,RDN,MTN,REQ,WPR,DLT,GNX,AST,CMT,AIDOC,YOYOW,NULS';	
+		 const firstResponse = await fetch(`https://min-api.cryptocompare.com/data/pricemultifull?fsyms=${stringTicket}&tsyms=USD`);
 		 const dataInfo = await firstResponse.json();
 		 const secondResponse = await fetch("../assets.js");
 		 const dataNames = await secondResponse.json();
@@ -17,7 +21,20 @@ $(function(){
 		 
 		 prices = dataInfo.DISPLAY;
 		 items = dataNames;
-		 console.log(items);
+		 console.log(items.length -1);
+
+
+		var tickets = new Array();
+		 $.each(items,function(k,v){
+			
+			tickets.push(v.name);
+		 })
+
+	
+
+		 var string = tickets.join(',');
+
+		
 	
 		 console.log(prices);
 		 $.each(prices,function(key,val){
@@ -114,7 +131,7 @@ $(function(){
 
 
 								
-							  new_el.innerHTML = `<td><span class="icon-wrap-crypto"><i class="icon icon-${iconName}"></i></span><a target="_blank" href="${i.coinLink}">${i.fullName}&nbsp;<span class="ticker">${i.name}</span></a> </td>  
+							  new_el.innerHTML = `<td><span class="icon-wrap-crypto"><i class="icon icon-${iconName}"></i></span><span class="full-name-td">${i.fullName}&nbsp;</span><span class="ticker">${i.name}</span></td>  
 							  <td class="price-td"><span>$${price}</span></td>
 							  <td class="${classChange}">${symbol}${change}%</td>  
 								<td>$${cap}</td>
