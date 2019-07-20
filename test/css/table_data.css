@@ -67,10 +67,7 @@ td.price-td a{
 
 
 .data-table-wrap table tbody tr td a{
-	
 		color:#172A3F;
-		transition: all .3s ease-in-out;
-
 }
 
 td.down{
@@ -79,6 +76,12 @@ td.down{
 
 td.up{
 	color:#31D37D!important;
+}
+
+.data-table-wrap table tbody tr:hover{
+	cursor: pointer;
+	background:#F5FBFF;
+	transition:all .3s ease-in-out;
 }
 
 .data-table-wrap table tbody tr td a:hover{
@@ -164,26 +167,32 @@ td.up{
 .actions-button{
 	width: 188px;
     display: block;
-    margin:0 auto;
+	margin:0 auto;
+
 }
 .actions-button a{
     display:block;
     width: 100%;
-    line-height: 48px;
+    line-height:65px;
     cursor: pointer;
 	font-size: 18px;
-	height:48px;
+	height:65px;
     background: #2FA6FA;
 	border-radius: 48px;
 	color:white!important;
 	text-align:center;
 	cursor:pointer;
 	text-decoration:none!important;
+
 }
 
 .actions-button a:hover{
     
-	background-color: #086394!important;
+	background: linear-gradient(360deg, #0075E2 0%, #41C1FD 100%, #41C1FD 100%)!important;
+}
+
+.ticker{
+	color:#B5BBC2;
 }
 
 
