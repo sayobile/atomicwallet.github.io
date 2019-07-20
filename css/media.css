@@ -63,6 +63,9 @@
 	.partners-list {
 		max-width: 1300px;
 			}
+	.main {
+		padding-top: 180px;
+	}
 }
 
 @media screen and (max-width: 830px) {
