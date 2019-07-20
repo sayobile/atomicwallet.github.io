@@ -79,7 +79,6 @@ td.up{
 }
 
 .data-table-wrap table tbody tr:hover{
-	cursor: pointer;
 	background:#F5FBFF;
 	transition:all .3s ease-in-out;
 }
