@@ -55,6 +55,7 @@ td.price-td a{
 		 display:flex;
 	justify-content:space-between;
 	align-items:center;
+	position: relative;
 }
    
 
@@ -76,6 +77,15 @@ td.down{
 
 td.up{
 	color:#31D37D!important;
+}
+
+.clickable_zone{
+	position: absolute;
+    left: 0;
+    z-index: 15;
+    width: 1170px;
+	height: 100%;
+	cursor: pointer;
 }
 
 .data-table-wrap table tbody tr:hover{

@@ -124,9 +124,14 @@ $(function(){
 							  <td><div class="actions-button">
 								  <a class = "get-w" href="${i.coinLink}">Get Wallet</a>
 								  </div>
-							  </td>`
+							  </td>
+							  <span class="clickable_zone"></span>
+							  `
 							
-								el.appendChild(new_el)
+								el.appendChild(new_el);
+								$('.clickable_zone').click(function(){
+									
+								})
 								
 							  })
 							removePreloader();			
@@ -138,6 +143,8 @@ $(function(){
 		$('#list-table-preloader').remove();
 	}
 			
+
+	
 	
 			
 		
