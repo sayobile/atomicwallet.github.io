@@ -56,6 +56,8 @@ td.price-td a{
 	justify-content:space-between;
 	align-items:center;
 	position: relative;
+	height:90px;
+	box-sizing:border-box;
 }
    
 
@@ -64,8 +66,13 @@ td.price-td a{
 		font-size:24px;
 		color:#172A3F;
 		text-align:center;
+		position: relative;
 }
 
+.full-name-td{
+	text-align: left;
+	margin-left:30px;
+}
 
 .data-table-wrap table tbody tr td a{
 		color:#172A3F;
@@ -84,7 +91,7 @@ td.up{
     left: 0;
     z-index: 15;
     width: 80%;
-	height: 100%;
+	height: 95%;
 	cursor: pointer;
 }
 
@@ -93,10 +100,7 @@ td.up{
 	transition:all .3s ease-in-out;
 }
 
-.data-table-wrap table tbody tr td a:hover{
-	
-    text-decoration: underline;
-}
+
 
 .data-table-wrap table tbody tr td:first-child{
 		display:flex;
@@ -167,9 +171,6 @@ td.up{
 
 
 
-.data-table-wrap table tbody tr td:first-child a{
-	margin-left:30px;
-}
 
 
 
@@ -179,21 +180,22 @@ td.up{
 	margin:0 auto;
 
 }
+
 .actions-button a{
     display:block;
     width: 100%;
-    line-height:65px;
+    line-height:50px;
     cursor: pointer;
 	font-size: 18px;
-	height:65px;
+	height:50px;
     background: #2FA6FA;
 	border-radius: 48px;
 	color:white!important;
 	text-align:center;
 	cursor:pointer;
 	text-decoration:none!important;
-
 }
+
 
 .actions-button a:hover{
     
