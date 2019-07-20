@@ -130,7 +130,8 @@ $(function(){
 							
 								el.appendChild(new_el);
 								$('.clickable_zone').click(function(){
-									
+									var url = $(this).parent().find('.price-td').find('a').attr('href');
+									window.open(url, '_blank');
 								})
 								
 							  })
