@@ -64,6 +64,8 @@ td.price-td a{
 		font-size:24px;
 		color:#172A3F;
 		text-align:center;
+		position: relative;
+		z-index: 20;
 }
 
 

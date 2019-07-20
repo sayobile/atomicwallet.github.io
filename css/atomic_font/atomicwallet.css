@@ -1,6 +1,6 @@
 @font-face {
   font-family: AtomicWallet;
-  src: url("./atomicwallet.ttf") format('truetype');
+  src: url("../atomic_font/icon_fonts/AtomicWallet.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
