@@ -139,8 +139,8 @@ svg{
     transition:height .3s ease-in-out,line-height .3s ease-in-out;
 }
 
-.btn--download-menu{
-    background: linear-gradient(360deg, #0075E2 0%, #41C1FD 100%, #41C1FD 100%);
+.btn--download-mobile_menu{
+    background: none;
     border-radius: 48px;
     color:white;
     text-align: center;
@@ -149,10 +149,18 @@ svg{
     line-height: 45px;
     text-transform: uppercase;
     cursor: pointer;
-   transition:height .3s ease-in-out,line-height .3s ease-in-out;
-    display:block!important;
-    margin: 0 auto;
+    border: 1px solid #2FA6FA;
+   position: absolute;
+   right:75px;
+   display: none;
+  
 }
+
+.btn--download-mobile_menu:hover{
+    background: linear-gradient(360deg, #0075E2 0%, #41C1FD 100%, #41C1FD 100%);
+    border:none!important;
+}
+
 
 
 
@@ -166,10 +174,7 @@ svg{
 }
 
 
-.test{
-    height: 150000px;
-    width:100%;
-}
+
 @media only screen  and (max-width:1920px){
 
     .header{
@@ -252,6 +257,9 @@ svg{
 @media only screen  and (max-width:900px){
 
     .btn--mobile-menu{
+        display: block;
+    }
+    .btn--download-mobile_menu{
         display: block;
     }
 

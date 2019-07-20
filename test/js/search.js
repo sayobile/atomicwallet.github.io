@@ -133,7 +133,7 @@ $(function(){
 
 
 								
-							  new_el.innerHTML = `<td><span class="icon-wrap-crypto"><i class="icon icon-${iconName}"></i></span><span class="full-name-td">${i.fullName}&nbsp;</span><span class="ticker">${i.name}</span></td>  
+							  new_el.innerHTML = `<td><span class="icon-wrap-crypto"><i class="icon icon-${iconName}"></i></span><span class="full-name-td">${i.fullName}&nbsp;<span class="ticker">${i.name}</span></span></td>  
 							  <td class="price-td"><span>$${price}</span></td>
 							  <td class="${classChange}">${symbol}${change}%</td>  
 								<td>$${cap}</td>

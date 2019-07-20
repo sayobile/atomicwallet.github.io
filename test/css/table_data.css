@@ -1,7 +1,7 @@
 
 
 .data-table-wrap{
-	margin:0 auto;
+	margin:25px auto;
 	padding: 0 50px;
     box-sizing: border-box;
 }
@@ -11,6 +11,8 @@
 		    border-collapse: collapse;
 			width:100%;
 }
+
+
 .data-table-wrap table thead tr td{
 		font-size:18px;
 		padding:20px 0;
