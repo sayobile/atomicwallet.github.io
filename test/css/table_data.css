@@ -56,6 +56,8 @@ td.price-td a{
 	justify-content:space-between;
 	align-items:center;
 	position: relative;
+	height:90px;
+	box-sizing:border-box;
 }
    
 
@@ -171,6 +173,7 @@ td.up{
 
 .data-table-wrap table tbody tr td:first-child a{
 	margin-left:30px;
+	text-align: left;
 }
 
 
@@ -181,21 +184,22 @@ td.up{
 	margin:0 auto;
 
 }
+
 .actions-button a{
     display:block;
     width: 100%;
-    line-height:65px;
+    line-height:50px;
     cursor: pointer;
 	font-size: 18px;
-	height:65px;
+	height:50px;
     background: #2FA6FA;
 	border-radius: 48px;
 	color:white!important;
 	text-align:center;
 	cursor:pointer;
 	text-decoration:none!important;
-
 }
+
 
 .actions-button a:hover{
     

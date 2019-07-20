@@ -42,10 +42,14 @@ $(function(){
 		
 	 getData();
 	  
-	  function filter(val,list){
+	  function filterByName(val,list){
 					
-					return list.filter(i=>(~i.fullName.toLowerCase().indexOf(val)))
+					return list.filter( i => (~i.fullName.toLowerCase().indexOf(val)) || (~i.name.toLowerCase().indexOf(val)) );
+					
+				
 	  };
+
+
 	  
 	  jQuery.fn.cleanWhitespace = function() {
 		this.contents().filter(
@@ -113,7 +117,7 @@ $(function(){
 
 								
 							  new_el.innerHTML = `<td><span class="icon-wrap-crypto"><i class="icon icon-${iconName}"></i></span><a target="_blank" href="${i.coinLink}">${i.fullName}&nbsp;<span class="ticker">${i.name}</span></a> </td>  
-							  <td class="price-td"><a href="${i.coinPriceLink}">$${price}</a></td>
+							  <td class="price-td"><span>$${price}</span></td>
 							  <td class="${classChange}">${symbol}${change}%</td>  
 								<td>$${cap}</td>
 							  <td>$${volume}</td>
@@ -125,15 +129,14 @@ $(function(){
 								  <a class = "get-w" href="${i.coinLink}">Get Wallet</a>
 								  </div>
 							  </td>
-							  <span class="clickable_zone"></span>
 							  `
 							
 								el.appendChild(new_el);
-								$('.clickable_zone').click(function(){
-									var url = $(this).parent().find('.price-td').find('a').attr('href');
-									window.open(url, '_blank');
-								})
 								
+								$('.clickable_zone').click(function(){
+									window.open(i.coinLink, '_blank');
+									return;
+								})
 							  })
 							removePreloader();			
 						
@@ -143,6 +146,8 @@ $(function(){
 	function removePreloader(){
 		$('#list-table-preloader').remove();
 	}
+
+
 			
 
 	
@@ -150,7 +155,8 @@ $(function(){
 			
 		
 		 
-	document.getElementById('search').addEventListener('input',e=>renderList(filter(e.target.value.toLowerCase(),items),resultBlock));
+	document.getElementById('search').addEventListener('input',e=>renderList(filterByName(e.target.value.toLowerCase(),items),resultBlock));
+	
 	
 				$('.input-wrapper input').keyup(function(e){
 					let code = e.keyCode;
