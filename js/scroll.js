@@ -53,10 +53,12 @@ $(function(){
         var closedMenu = true;
         $('.btn--mobile-menu').click(function(){
             if(closedMenu){
+                $('.btn--download-mobile_menu').hide();
                 $('.header__navigation--mobile').slideDown(300);
                 $(this).find('i').removeClass('fa-bars').addClass('fa-times');
                 closedMenu = false;
             }else{
+                $('.btn--download-mobile_menu').show();
                 $('.header__navigation--mobile').slideUp(300);
                 $(this).find('i').removeClass('fa-times').addClass('fa-bars');
                 closedMenu = true;
