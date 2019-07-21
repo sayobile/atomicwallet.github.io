@@ -22,9 +22,10 @@ $(function(){
      }
 
 
-     /*$(window).scroll(function() {
+     $(window).scroll(function() {
 
-        var scroll = getScrollOffset();
+        
+       var scroll = getScrollOffset();
         var wHeight = window.innerHeight;
         var moreThan = wHeight/3 - 50;
         if ( scroll >= moreThan){
@@ -39,7 +40,7 @@ $(function(){
             }); 
         }
     
-    })*/
+    })
 
 
 });
