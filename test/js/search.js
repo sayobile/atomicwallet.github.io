@@ -82,7 +82,7 @@ $(function(){
 								
 								el.innerHTML='';
 							  list.forEach( i =>{
-								var new_el = document.createElement('tr'),
+								var row = document.createElement('tr'),
 									price,
 									volume,
 									cap,
@@ -133,7 +133,7 @@ $(function(){
 
 
 								
-							  new_el.innerHTML = `<td><span class="icon-wrap-crypto"><i class="icon icon-${iconName}"></i></span><span class="full-name-td">${i.fullName}&nbsp;</span><span class="ticker">${i.name}</span></td>  
+								row.innerHTML = `<td><span class="icon-wrap-crypto"><i class="icon icon-${iconName}"></i></span><span class="full-name-td">${i.fullName}&nbsp;<span class="ticker">${i.name}</span></span></td>  
 							  <td class="price-td"><span>$${price}</span></td>
 							  <td class="${classChange}">${symbol}${change}%</td>  
 								<td>$${cap}</td>
@@ -146,12 +146,15 @@ $(function(){
 								  <a class="get-w" href="${i.coinLink}">Get Wallet</a>
 								  </div>
 							  </td>
-							  
+							  <td class="price-and-change">
+							  	<span>$${price}</span>
+								<span class="${classChange}">${symbol}${change}%</span>
+							  </td>
 								<a class="clickable_zone" target="_blank" href="https://atomicwallet.io/${i.fullName.toLowerCase()}-price"></a>
 							 
 							  `
 							
-								el.appendChild(new_el);
+								el.appendChild(row);
 								
 							
 							  })
