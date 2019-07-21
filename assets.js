@@ -1376,36 +1376,6 @@
         }
     }
 },
-
-{
-    "name":"DGTX",
-    "fullName":"Digitex Futures",
-    "iconName":"DGTX.svg",
-    "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-        "send":{
-            "text":"dgtx",
-            "class":"green"
-        },
-        "coinID":{
-            "text":"dgtx",
-            "class":"green"
-        },
-        "volume":{
-            "text":"https://atomicwallet.io/buy-bitcoin",
-            "class":"normal"
-        },
-        "buylink":{
-            "text":"https://atomicwallet.io/buy-bitcoin",
-            "class":"normal"
-        },
-        "walletlink":{
-            "text":"https://atomicwallet.io/ethereum-wallet",
-            "class":"normal"
-        }
-    }
-},
 {
     "name":"MANA",
     "fullName":"Decentraland",
