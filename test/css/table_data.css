@@ -380,12 +380,23 @@ td.price-td a{
     font-size: 32px!important;
 }
 
+.data-table-wrap table tbody tr {
+    border-bottom: 1px solid #EDEDED;
+}
+
 }
 
 
 @media(max-width:590px){
+	.search-container{
+		padding:20px 0!important;
+	}
+	.search-container .search-block .input-wrapper {
+		width: 100%!important;
+	}
+
 	.search-container .search-block .input-wrapper input {
-		width: 400px!important;
+		width: 100%!important;
 	}
 
 
@@ -406,9 +417,8 @@ td.price-td a{
 		line-height:40px!important;
 	}
 	
-	.search-container .search-block .input-wrapper input {
-		width: 360px!important;
-	}
+	
+
 	
 }	
 
