@@ -139,22 +139,23 @@ svg{
     transition:height .3s ease-in-out,line-height .3s ease-in-out;
 }
 
-.btn--download-mobile_menu{
+.btn--download-mobile_menu {
     background: none;
     border-radius: 48px;
-    color:white;
+    color: white;
     text-align: center;
-    width:188px;
-    height:45px;
-    line-height: 45px;
+    width: 155px;
+    height: 37px;
+    line-height: 37px;
     text-transform: uppercase;
     cursor: pointer;
     border: 1px solid #2FA6FA;
-   position: absolute;
-   right:75px;
-   display: none;
-  
+    position: absolute;
+    right: 75px;
+    display: none;
+    font-size: 15px;
 }
+
 
 .btn--download-mobile_menu:hover{
     background: linear-gradient(360deg, #0075E2 0%, #41C1FD 100%, #41C1FD 100%);
@@ -190,7 +191,7 @@ svg{
 
     .header{
         
-        padding:0 120px;
+        padding:0 75px;
         
     }
 
