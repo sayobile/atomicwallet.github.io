@@ -307,7 +307,10 @@ img.listing-qr-code {
     top: -30px;
     }
     .copy-span {
-      display: none;
+      display: none !important;
+    }
+    button.copy-button:hover {
+    display: none;
     }
 
   }
