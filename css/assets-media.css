@@ -3,7 +3,8 @@
         height: 140px;
     }
     .main-subtitle {
-        font-size: 14px;
+        font-size: 17px;
+        width: 90%;
     }
     .main {
         padding-top: 0;
