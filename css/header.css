@@ -14,7 +14,7 @@
     transition:all .3s ease-in-out;
     z-index:25;
 
-	
+    
 
 
 }
@@ -169,6 +169,7 @@ svg{
 
 
 
+
 .btn--download:hover{
    
     background: linear-gradient(360deg, #0075E2 0%, #41C1FD 100%, #41C1FD 100%);
@@ -262,6 +263,8 @@ svg{
     }
     .btn--download-mobile_menu{
         display: block;
+        margin-right: -5px;
+
     }
 
     .header__navigation ul{
