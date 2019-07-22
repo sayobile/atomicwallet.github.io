@@ -302,6 +302,14 @@ img.listing-qr-code {
     .flex-container {
       width: 100%;
     }
+    .copy-span-copied{
+    right:-10px;
+    top: -30px;
+    }
+    .copy-span {
+      display: none;
+    }
+
   }
 
   
