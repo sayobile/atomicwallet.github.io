@@ -545,8 +545,8 @@ box-shadow: none;
  * main
  */
 .main {
-	padding-bottom: 95px;
-	padding-top: 230px;
+	padding-bottom: 5px;
+	padding-top: 130px;
 }
 .main-title {
 	width: 500px;
