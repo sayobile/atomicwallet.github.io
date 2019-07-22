@@ -1,7 +1,7 @@
 
 
 .data-table-wrap{
-	margin:0 auto;
+	margin:25px auto;
 	padding: 0 50px;
     box-sizing: border-box;
 }
@@ -11,6 +11,21 @@
 		    border-collapse: collapse;
 			width:100%;
 }
+
+
+
+.fixed-table-header{
+	position: fixed;
+    top: 49px;
+    left: 0;
+    width: 100%;
+    padding: 0 50px;
+	box-sizing: border-box;
+	background: #F6F8F9;
+    z-index: 100;
+}
+
+
 .data-table-wrap table thead tr td{
 		font-size:18px;
 		padding:20px 0;
@@ -24,7 +39,7 @@
 		text-align: center;
 }
 .data-table-wrap table thead tr td:first-child{
-		width:300px;
+		width:380px;
 }
 
 .data-table-wrap table tbody tr td:last-child{
@@ -63,7 +78,7 @@ td.price-td a{
 
 .data-table-wrap table tbody tr td{
 		padding:30px 0;
-		font-size:24px;
+		font-size:22px;
 		color:#172A3F;
 		text-align:center;
 		position: relative;
@@ -78,12 +93,19 @@ td.price-td a{
 		color:#172A3F;
 }
 
-td.down{
+.down{
 	color:red!important;
 }
 
-td.up{
+.up{
 	color:#31D37D!important;
+}
+
+
+.price-and-change{
+	display: none;
+    flex-direction: column;
+	align-items: flex-end;
 }
 
 .clickable_zone{
@@ -96,7 +118,7 @@ td.up{
 }
 
 .data-table-wrap table tbody tr:hover{
-	background:#F5FBFF;
+	background:#3ba6f70a;
 	transition:all .3s ease-in-out;
 }
 
@@ -105,7 +127,7 @@ td.up{
 .data-table-wrap table tbody tr td:first-child{
 		display:flex;
 		align-items:center;
-		width:300px;
+		width:380px;
 }
 
 
@@ -207,7 +229,7 @@ td.up{
 }
 
 
-@media(max-width:1120px){
+@media(max-width:1150px){
 	
 	.data-table-wrap{
 		width:100vw;
@@ -227,12 +249,197 @@ td.up{
 	
 	.data-table-wrap table thead tr td{
 		padding:20px;
+		font-size:13px;
+	}
+
+	.actions-button {
+		width: 160px;
+	}
+	.actions-button a{
+		height: 45px;
+		line-height: 45px;
 		font-size:16px;
 	}
-	
+
 }
 
 
+
+@media(max-width:1100px){
+	
+	.data-table-wrap table tbody tr td:first-child {
+		width: 280px;
+	}
+
+	.data-table-wrap table thead tr td:first-child {
+		width: 280px;
+	}
+
+}
+
+
+
+@media(max-width:991px){
+	
+	.data-table-wrap table tbody tr td:first-child {
+		width: 200px;
+	}
+
+	.data-table-wrap table thead tr td:first-child {
+		width: 200px;
+	}
+
+	.actions-button {
+		width: 120px;
+	}
+	.actions-button a{
+		height:35px;
+		line-height: 35px;
+		font-size:16px;
+	}
+
+	.full-name-td {
+		margin-left:15px;
+	}
+
+	.data-table-wrap table thead tr td {
+		padding:10px 0;
+		
+	}
+	.data-table-wrap table tbody tr td {
+		padding:10px 0;
+	}
+}
+
+@media(max-width:900px){
+	
+
+
+	.full-name-td {
+		margin-left: 5px;
+	}
+
+	.actions-button {
+		margin: 0 25px;
+	}
+}
+
+
+@media(max-width:870px){
+	
+	.price-and-change{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+	
+.data-table-wrap table thead{
+	display: none;
+}
+
+.data-table-wrap table tbody tr td:nth-child(2){
+	display: none;
+}
+
+.data-table-wrap table tbody tr td:nth-child(3){
+	display: none;
+}
+	
+.data-table-wrap table tbody tr td:nth-child(4){
+	display: none;
+}
+
+.data-table-wrap table tbody tr td:nth-child(5){
+	display: none;
+}
+
+.data-table-wrap table tbody tr td:nth-child(6){
+	display: none;
+}
+
+.data-table-wrap {
+    width: auto;
+}
+
+.price-and-change{
+	font-size:22px!important;
+}
+
+.data-table-wrap table tbody tr td:first-child {
+    font-size:22px!important;
+}
+
+.main {
+    padding-bottom: 5px!important;
+    padding-top: 120px!important;
+}
+
+.main-title {
+    font-size: 32px!important;
+}
+
+.data-table-wrap table tbody tr {
+    border-bottom: 1px solid #EDEDED;
+}
+
+}
+
+
+@media(max-width:590px){
+	.search-container{
+		padding:20px 0!important;
+	}
+	.search-container .search-block .input-wrapper {
+		width: 100%!important;
+	}
+
+	.search-container .search-block .input-wrapper input {
+		width: 100%!important;
+	}
+
+
+	.data-table-wrap table thead tr td:last-child {
+		width: 100px!important;
+	}
+}	
+
+
+
+@media(max-width:500px){
+	.data-table-wrap table tbody tr{
+		flex-wrap:wrap;
+	}
+	
+	.main-title{
+		font-size:20px;
+		line-height:40px!important;
+	}
+	
+	
+
+	
+}	
+
+
+@media(max-width:360px){
+
+	
+	.main-title{
+		font-size:16px;
+		line-height:30px!important;
+	}
+	
+	.search-container .search-block .input-wrapper input {
+		width: 100%!important;
+	}
+	
+}	
+
+
+
+
+
+/*
 
 @media(max-width:991px){
 .main-title{
@@ -369,4 +576,4 @@ td.up{
 	
 }
 
-
+*/
