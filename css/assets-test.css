@@ -12,20 +12,20 @@ a.wallet-list-item:hover {
 
 
 .search-container{
-	margin:0 auto;
-	    padding: 20px!important;
+    margin:0 auto;
+    padding: 20px;
     box-sizing: border-box;
 }
 
 .search-block{
-	width:auto;
-	display:flex;
+    width:auto;
+    display:flex;
     align-items:center;
     justify-content:center;
 }
 
 .input-wrapper{
-	position:relative;
+    position:relative;
 }
 #body-table-data{
     color: black;
@@ -48,26 +48,26 @@ outline:none;
 
 
 .active-filter{
-	background:#2FA6FA!important;
-	color:white!important;
-	border: none!important;
+    background:#2FA6FA!important;
+    color:white!important;
+    border: none!important;
 }
 
 .tokens-filter, .coins-filter{
-	width: 100px;
-	height: 48px;
-	background: #ECF2FA;
-	border: 1px solid #D1D8E2;
-	box-sizing: border-box;
-	border-radius: 48px;
-	color:#172A3F;
-	font-weight: 500;
-	font-size: 18px;
-	line-height: 48px;
-	text-align: center;
-	letter-spacing: 1px;
-	margin-right:16px;
-	cursor:pointer;
+    width: 100px;
+    height: 48px;
+    background: #ECF2FA;
+    border: 1px solid #D1D8E2;
+    box-sizing: border-box;
+    border-radius: 48px;
+    color:#172A3F;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-right:16px;
+    cursor:pointer;
 }
 
 .input-wrapper i {
@@ -75,13 +75,13 @@ outline:none;
     right:15px;
     top: 50%;
     transform: translate(0, -50%) rotate(90deg);
-	color:#B5BBC2;
-	font-size:1.25em;
-	cursor:pointer;
+    color:#B5BBC2;
+    font-size:1.25em;
+    cursor:pointer;
 }
 
 .coins-filter{
-	margin-left:40px;
+    margin-left:40px;
 }
 
 
@@ -145,7 +145,7 @@ margin-right: 195px;
 .list-table-item {
     position: relative;
     counter-increment: esum;
-	width:306px;
+    width:306px;
 }
 .list-table-item:before {
     content: counter(esum)".";
@@ -251,7 +251,7 @@ a.link-coins:hover {
 }
 
 .wallet-container{
-	width:306px!important;
+    width:306px!important;
 }
 .list-table-caption {
       border-bottom: 1px solid rgba(24, 40, 72, 0.5);
