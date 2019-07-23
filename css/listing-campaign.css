@@ -42,7 +42,7 @@
     height: 20px;
     background: #3fbdfd;
     z-index: 333;
-    border: 4.32172px solid #3fbdfd;
+   transition:all .3s ease-in;
   }
   .overlay_qr{
     width:100%;
