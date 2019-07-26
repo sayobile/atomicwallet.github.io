@@ -49,10 +49,50 @@ p {
     z-index: 1;
 }
 
+.title-image{
+background-image: url('images/ama_report.png');
+width:100%;
+height:630px;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
 /* Download Templates  */
 .downloads-container {
     margin: 150px;
-    }
+}
+
+
+.ama-report{
+    background-color:white;
+    border-radius:16px;
+    max-width: 1060px;
+    margin:0 auto;
+    margin-top:50px;
+}
+
+.ama-report h1{
+    font-size:36px!important;
+    text-align:left;
+    width:680px;    
+    padding-top: 22px;
+    margin:0 auto;
+    font-family: 'Roboto'
+}
+
+
+
+.ama-report p{
+    padding:15px 0; 
+}
+
+.ama-report p:last-child{
+    padding:15px 0; 
+    padding-bottom:50px;
+}
+
+
 .releases {
     margin-bottom: 60px;
     padding: 30px;
