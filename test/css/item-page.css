@@ -26,6 +26,17 @@ main.support {
     flex-wrap: wrap;
 }
 
+
+.title-image-lto{
+    background-image: url('../../css/images/ama_report_lto.png');
+    width:100%;
+    height:630px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    
+
 .card-item {
     width: 24%;
     text-align: center;
