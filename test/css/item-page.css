@@ -36,6 +36,14 @@ main.support {
     background-repeat: no-repeat;
     }
     
+    .title_image_litecoin{
+        background-image: url('../../css/images/litecoin_halving.png');
+        width:100%;
+        height:630px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 
 .card-item {
     width: 24%;
