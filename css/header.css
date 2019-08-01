@@ -1,3 +1,9 @@
+* {
+    -webkit-touch-callout:none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust:none;             /* prevent webkit from resizing text to fit */
+    -webkit-tap-highlight-color:rgba(0,0,0,0); /* prevent tap highlight color / shadow */
+}
+
 .header{
     width: 100%;
     padding:0 294px;
@@ -154,12 +160,13 @@ svg{
     right: 75px;
     display: none;
     font-size: 15px;
+    outline:none!important;
+ 
 }
 
 
 .btn--download-mobile_menu:hover{
     background: linear-gradient(360deg, #0075E2 0%, #41C1FD 100%, #41C1FD 100%);
-    border:none!important;
 }
 
 
