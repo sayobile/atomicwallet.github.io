@@ -236,6 +236,7 @@ svg{
 
     .header__navigation ul li{
         padding:0 15px;
+        white-space: nowrap;
     }
     
 }
