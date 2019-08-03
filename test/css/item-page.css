@@ -26,27 +26,6 @@ main.support {
     flex-wrap: wrap;
 }
 
-
-
-
-.title-image-lto{
-    background-image: url('../../css/images/ama_report_lto.png');
-    width:100%;
-    height:630px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    }
-    
-    .title_image_litecoin{
-        background-image: url('../../css/images/litecoin_halving.png');
-        width:100%;
-        height:630px;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
 .card-item {
     width: 24%;
     text-align: center;
@@ -271,40 +250,14 @@ main.support {
 .article-img img {
     width: 100%;
 }
-.buy-coin-item-features {
-    padding: 50px;
-}
 
 /************* /SUPPORT ARTICLES ************/
 
 /************* /SUPPORT PAGES ************/
 
-
-
-
-
-/* BUY-COIN-SECTION-BLOG-ITEMS */
-
-.buy-coin-wrapper {
-
-}
-
-
-
-
-
-
-/* BUY-COIN-SECTION-BLOG-ITEMS */
-
-
-
-
-
-
 .item-page-container {
     overflow: hidden;
     margin-top: 0;
-    padding-top: 150px !important;
 }
 .head-article {
 
@@ -493,8 +446,8 @@ abbr {
     text-decoration-style: double;
 }
 iframe {
-    /*width: 680px;*/
-    /*height: 100%;*/
+    width: 680px;
+    height: 395px;
 }
 #widget {
     height: inherit;
@@ -519,12 +472,10 @@ iframe {
     width: auto;
     margin-bottom: 30px;
 }
-.ol-ul {
-    margin-bottom: -25px !important;
-}
-.item-page li p  {
-    padding-bottom: 0px !important;
-}
+
+/* .item-page ol li {
+    line-height: 4px;
+} */
 .item-page .blog-li-longtext li {
     line-height: 30px;
 }
@@ -868,10 +819,6 @@ ul .article-li {
     max-width: 680px;
     height: auto;
 }
-ol> .item-page-image-template,
-li> .item-page-image-template {
-    margin-left: -60px;
-}
 .blog-margin {
     margin-top: -140px;
 }
@@ -900,7 +847,6 @@ li> .item-page-image-template {
 }
 .blog-div-text h4 {
     padding-left: 20px;
-    padding-right: 20px;
     padding-bottom: 10px;
 }
 .blog-div-text p {
@@ -914,12 +860,15 @@ li> .item-page-image-template {
     flex-wrap: wrap;
     margin-bottom: 150px;
 }
+.small-image-blog {
+
+
+}
 .small-image-blog img {
     object-fit: fill;
     height: 239px;
-    width: 100%;
-    /*margin-left: 5px;*/
-    /*border-radius: 16px;*/
+    margin-left: 5px;
+    border-radius: 16px;
 }
 .blog-li li {
     line-height: 30px !important;
@@ -1115,7 +1064,7 @@ li> .item-page-image-template {
         min-width: 100%;
         }
         .item-page-container {
-        /*margin-top: -128px;*/
+        margin-top: -128px;
         background-color: white;
         }
        .item-page-article {
@@ -1151,16 +1100,13 @@ li> .item-page-image-template {
       }
       .item-page ul li,
       .item-page ol li {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
     width: 100%;
     padding-right: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
     }
-    .item-page li p  {
-    padding-bottom: 0px !important;
-}
 
     .item-page ul li:nth-child(1) {
     margin-top: 0px;
@@ -1221,17 +1167,7 @@ li> .item-page-image-template {
     .widget-cc {
         width: 100%;
     }
-    #wallet-button {
-    flex-wrap: wrap;
-    display: flex !important;
-    margin-top: 10px !important;
-}
-    #wallet-button .buy-coin-button {
-        margin-top: 20px;
-    }
-    .buy-coin-item-features-top {
-    flex-flow: column !important;
-}
+
 
     table, th, td {
     text-align: left;
@@ -1271,21 +1207,6 @@ li> .item-page-image-template {
       .item-page-image-template img {
         width: 100%;
       }
-      ol> .item-page-image-template {
-    margin-left: -20px;
-}
-.fixed-header {
-    position: unset;
-    height: inherit;
-}
-.no-logo {
-    height: inherit !important;
-}
-.header-height {
-    height: inherit !important;
-    padding-top: unset;
-}
-
 
     /*!!! Support !!!*/
 
@@ -1360,7 +1281,7 @@ li> .item-page-image-template {
 
       }
       .item-page-article p {
-        font-size: 17px;
+        font-size: 16px;
         line-height: 27px;
       }
       .blog-margin {
@@ -1465,10 +1386,6 @@ li> .item-page-image-template {
     padding-right: 20px;
     width: 100%;
     }
-    /* add this clas before ul/ol in paragraphs */
-    .ol-ul {
-    margin-bottom: 12px !important;
-}
 
 
 /* Downloads Boxes */

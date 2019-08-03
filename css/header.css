@@ -1,9 +1,3 @@
-* {
-    -webkit-touch-callout:none;                /* prevent callout to copy image, etc when tap to hold */
-    -webkit-text-size-adjust:none;             /* prevent webkit from resizing text to fit */
-    -webkit-tap-highlight-color:rgba(0,0,0,0); /* prevent tap highlight color / shadow */
-}
-
 .header{
     width: 100%;
     padding:0 294px;
@@ -20,7 +14,7 @@
     transition:all .3s ease-in-out;
     z-index:25;
 
-    
+	
 
 
 }
@@ -145,31 +139,20 @@ svg{
     transition:height .3s ease-in-out,line-height .3s ease-in-out;
 }
 
-.btn--download-mobile_menu {
-    background: none;
+.btn--download-menu{
+    background: linear-gradient(360deg, #0075E2 0%, #41C1FD 100%, #41C1FD 100%);
     border-radius: 48px;
-    color: white;
+    color:white;
     text-align: center;
-    width: 155px;
-    height: 37px;
-    line-height: 37px;
+    width:188px;
+    height:45px;
+    line-height: 45px;
     text-transform: uppercase;
     cursor: pointer;
-    border: 1px solid #2FA6FA;
-    position: absolute;
-    right: 75px;
-    display: none;
-    font-size: 15px;
-    outline:none!important;
- 
+   transition:height .3s ease-in-out,line-height .3s ease-in-out;
+    display:block!important;
+    margin: 0 auto;
 }
-
-
-.btn--download-mobile_menu:hover{
-    background: linear-gradient(360deg, #0075E2 0%, #41C1FD 100%, #41C1FD 100%);
-}
-
-
 
 
 
@@ -183,7 +166,10 @@ svg{
 }
 
 
-
+.test{
+    height: 150000px;
+    width:100%;
+}
 @media only screen  and (max-width:1920px){
 
     .header{
@@ -199,7 +185,7 @@ svg{
 
     .header{
         
-        padding:0 75px;
+        padding:0 120px;
         
     }
 
@@ -267,11 +253,6 @@ svg{
 
     .btn--mobile-menu{
         display: block;
-    }
-    .btn--download-mobile_menu{
-        display: block;
-        margin-right: -5px;
-
     }
 
     .header__navigation ul{

@@ -42,7 +42,7 @@
     height: 20px;
     background: #3fbdfd;
     z-index: 333;
-   transition:all .3s ease-in;
+    border: 4.32172px solid #3fbdfd;
   }
   .overlay_qr{
     width:100%;
@@ -302,17 +302,6 @@ img.listing-qr-code {
     .flex-container {
       width: 100%;
     }
-    .copy-span-copied{
-    right:-10px;
-    top: -30px;
-    }
-    .copy-span {
-      display: none !important;
-    }
-    button.copy-button:hover {
-    display: none;
-    }
-
   }
 
   
