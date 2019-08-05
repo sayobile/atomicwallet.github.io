@@ -26,6 +26,27 @@ main.support {
     flex-wrap: wrap;
 }
 
+
+
+
+.title-image-lto{
+    background-image: url('../../css/images/ama_report_lto.png');
+    width:100%;
+    height:630px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    
+    .title_image_litecoin{
+        background-image: url('../../css/images/litecoin_halving.png');
+        width:100%;
+        height:630px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
 .card-item {
     width: 24%;
     text-align: center;
@@ -283,6 +304,7 @@ main.support {
 .item-page-container {
     overflow: hidden;
     margin-top: 0;
+    padding-top: 150px !important;
 }
 .head-article {
 
@@ -1093,7 +1115,7 @@ li> .item-page-image-template {
         min-width: 100%;
         }
         .item-page-container {
-        margin-top: -128px;
+        /*margin-top: -128px;*/
         background-color: white;
         }
        .item-page-article {

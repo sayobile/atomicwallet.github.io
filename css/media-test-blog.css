@@ -26,10 +26,6 @@
     }
 
     
-
-    .container {
-        
-    }
     .only-mobile {
         display: block;
     }
@@ -168,10 +164,7 @@
     margin-top: -10px;
     margin-left: 2px;
     }
-    .header {
-        height: 95px;
-        background-color: #182848;
-    }
+
     .header-button {
         position: absolute;
         top: 17px;

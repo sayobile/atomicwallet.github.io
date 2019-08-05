@@ -207,7 +207,7 @@
     },
     {
         "name":"USDT",
-        "fullName":"Tether USD (ERC-20)",
+        "fullName":"Tether USD",
         "iconName":"USDT.svg",
         "coinPriceLink":"https://atomicwallet.io",
         "coinLink":"https://atomicwallet.io/ethereum-wallet",
@@ -265,37 +265,7 @@
             }
         }
     },
-    {
-        "name":"XMR",
-        "fullName":"Monero",
-        "iconName":"XMR.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/monero-wallet",
-    "walletlink":"https://atomicwallet.io/monero-wallet",
-    "buylink":"https://atomicwallet.io/buy-bitcoin",
-    "status":{
-            "send":{
-                "text":"xmr",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"xmr",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/monero-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+    
         {
         "name":"BSV",
         "fullName":"Bitcoin SV",
@@ -562,35 +532,7 @@
            }
        }
    },
-      {
-       "name":"XVG",
-       "fullName":"Verge",
-       "iconName":"XVG.svg",
-       "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/verge-wallet",
-    "status":{
-           "send":{
-               "text":"xvg",
-               "class":"green"
-           },
-           "coinID":{
-               "text":"xvg",
-               "class":"green"
-           },
-           "volume":{
-               "text":"333.5",
-               "class":"green"
-           },
-           "buylink":{
-               "text":"https://atomicwallet.io/buy-bitcoin",
-               "class":"green"
-           },
-           "walletlink":{
-               "text":"https://atomicwallet.io/verge-wallet",
-               "class":"wallet-list"
-           }
-       }
-   },
+     
      {
        "name":"WAVES",
        "fullName":"Waves",
@@ -1435,64 +1377,6 @@
     }
 },
 {
-    "name":"BZNT",
-    "fullName":"Bezant",
-    "iconName":"BZNT.svg",
-    "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-        "send":{
-            "text":"bznt",
-            "class":"green"
-        },
-        "coinID":{
-            "text":"bznt",
-            "class":"green"
-        },
-        "volume":{
-            "text":"https://atomicwallet.io/buy-bitcoin",
-            "class":"normal"
-        },
-        "buylink":{
-            "text":"https://atomicwallet.io/buy-bitcoin",
-            "class":"normal"
-        },
-        "walletlink":{
-            "text":"https://atomicwallet.io/ethereum-wallet",
-            "class":"normal"
-        }
-    }
-},
-{
-    "name":"DGTX",
-    "fullName":"Digitex Futures",
-    "iconName":"DGTX.svg",
-    "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-        "send":{
-            "text":"dgtx",
-            "class":"green"
-        },
-        "coinID":{
-            "text":"dgtx",
-            "class":"green"
-        },
-        "volume":{
-            "text":"https://atomicwallet.io/buy-bitcoin",
-            "class":"normal"
-        },
-        "buylink":{
-            "text":"https://atomicwallet.io/buy-bitcoin",
-            "class":"normal"
-        },
-        "walletlink":{
-            "text":"https://atomicwallet.io/ethereum-wallet",
-            "class":"normal"
-        }
-    }
-},
-{
     "name":"MANA",
     "fullName":"Decentraland",
     "iconName":"MANA.svg",
@@ -1815,122 +1699,7 @@
             }
         }
     },
-        {
-        "name":"MXM",
-        "fullName":"Maximine Coin",
-        "iconName":"MXM.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"mxm",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"mxm",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
-    {
-        "name":"XYO",
-        "fullName":"XYO",
-        "iconName":"XYO.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"xyo",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"xyo",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
-  {
-        "name":"ODE",
-        "fullName":"ODEM",
-        "iconName":"ODE.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"ode",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"ode",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
-    {
-        "name":"1ST",
-        "fullName":"First Blood",
-        "iconName":"1ST.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"1st",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"1st",
-                "class":"green"
-            },
-            "volume":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"green"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+      
     {
         "name":"300",
         "fullName":"300 Token",
@@ -2105,35 +1874,7 @@
             }
         }
     },
-    {
-        "name":"AMIS",
-        "fullName":"AMIS",
-        "iconName":"AMIS.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"amis",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"amis",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+  
     {
         "name":"ANT",
         "fullName":"Aragon",
@@ -2308,35 +2049,7 @@
             }
         }
     },
-      {
-        "name":"IOTX",
-        "fullName":"IoTeX",
-        "iconName":"IOTX.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"iotx",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"iotx",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+      
     {
         "name":"ATL",
         "fullName":"ATLANT",
@@ -2396,35 +2109,7 @@
         }
     },
 
-    {
-        "name":"BCDN",
-        "fullName":"BlockCDN",
-        "iconName":"BCDN.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"bcdn",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"bcdn",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+   
     {
         "name":"BET",
         "fullName":"Dao.Casino",
@@ -2483,35 +2168,7 @@
             }
         }
     },
-    {
-        "name":"BMC",
-        "fullName":"Blackmoon Crypto Token ",
-        "iconName":"BMC.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"bmc",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"bmc",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+   
     {
         "name":"BMT",
         "fullName":"BMChain",
@@ -2570,36 +2227,6 @@
             }
         }
     },
-
-    {
-        "name":"BRAT",
-        "fullName":"BROTHER",
-        "iconName":"BRAT.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"brat",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"brat",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
     {
         "name":"BQX",
         "fullName":"Ethos",
@@ -2613,35 +2240,6 @@
             },
             "coinID":{
                 "text":"bqx",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
-    {
-        "name":"BTE",
-        "fullName":"Bitcoineum",
-        "iconName":"BTE.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"bte",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"bte",
                 "class":"green"
             },
             "volume":{
@@ -2979,35 +2577,6 @@
         }
     },
     {
-        "name":"DDF",
-        "fullName":"Digital Developers Fund",
-        "iconName":"DDF.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"ddf",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"ddf",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
-    {
         "name":"DENT",
         "fullName":"DENT",
         "iconName":"DENT.svg",
@@ -3036,35 +2605,7 @@
             }
         }
     },
-    {
-        "name":"Digix Gold Token",
-        "fullName":"DGX",
-        "iconName":"DGX 1.0.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"dgx",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"dgx",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+   
     {
         "name":"DICE",
         "fullName":"DICE",
@@ -3312,36 +2853,6 @@
             },
             "coinID":{
                 "text":"fun",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
-
-    {
-        "name":"GBT",
-        "fullName":"HelloGold",
-        "iconName":"GBT.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"gbt",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"gbt",
                 "class":"green"
             },
             "volume":{
@@ -3765,35 +3276,7 @@
             }
         }
     },
-       {
-        "name":"RFR",
-        "fullName":"Refereum",
-        "iconName":"RFR.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"rfr",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"rfr",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+       
     {
         "name":"LATX",
         "fullName":"LatiumX",
@@ -4026,35 +3509,7 @@
             }
         }
     },
-    {
-        "name":"MDA",
-        "fullName":"Moeda Loyalty Points",
-        "iconName":"MDA.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"mda",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"mda",
-                "class":"green"
-            },
-            "volume":{
-                "text":"mda",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"mda",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+   
     {
         "name":"MNE",
         "fullName":"minereum",
@@ -4258,35 +3713,7 @@
             }
         }
     },
-    {
-        "name":"NXX",
-        "fullName":"Nexium",
-        "iconName":"NXX.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"nxx",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"nxx",
-                "class":"green"
-            },
-            "volume":{
-                "text":"nxx",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"nxx",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+    
     {
         "name":"OAX",
         "fullName":"OpenANX",
@@ -4955,35 +4382,7 @@
             }
         }
     },
-    {
-        "name":"SND",
-        "fullName":"SND Token 1.0",
-        "iconName":"SND.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"snd",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+
     {
         "name":"SNM",
         "fullName":"SONM",
@@ -5129,35 +4528,7 @@
             }
         }
     },
-    {
-        "name":"TaaS",
-        "fullName":"TAAS",
-        "iconName":"TaaS.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"taas",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+   
     {
         "name":"TBT",
         "fullName":"TBOT",
@@ -5536,35 +4907,7 @@
             }
         }
     },
-    {
-        "name":"WiC",
-        "fullName":"Wi Coin",
-        "iconName":"WIC.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"wic",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+   
     {
         "name":"WINGS",
         "fullName":"WINGS",
@@ -5594,35 +4937,7 @@
             }
         }
     },
-    {
-        "name":"WOLK",
-        "fullName":"Wolk Protocol Token",
-        "iconName":"WLK.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"wolk",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+    
     {
         "name":"XAUR",
         "fullName":"Xaurum",
@@ -5710,38 +5025,10 @@
             }
         }
     },
-    {
-        "name":"XRL",
-        "fullName":"Rialto",
-        "iconName":"XRL.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"xrl",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+  
     {
         "name":"BCPT",
-        "fullName":"BLOCKMASON CREDIT PROTOCOL TOKEN",
+        "fullName":"BLOCKMASON CREDIT",
         "iconName":"BCPT.svg",
         "coinPriceLink":"https://atomicwallet.io",
         "coinLink":"https://atomicwallet.io/ethereum-wallet",
@@ -5827,35 +5114,7 @@
             }
         }
     },
-    {
-        "name":"GTO",
-        "fullName":"Gifto",
-        "iconName":"GIFTO.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"gto",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+    
     {
         "name":"SRN",
         "fullName":"SIRIN",
@@ -6204,35 +5463,7 @@
             }
         }
     },
-    {
-        "name":"QUN",
-        "fullName":"QunQunCommunities",
-        "iconName":"QUN.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"qun",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+   
     {
         "name":"NAS",
         "fullName":"Nebulas",
@@ -6407,35 +5638,7 @@
             }
         }
     },
-    {
-        "name":"RCN",
-        "fullName":"RipioCreditNetwork",
-        "iconName":"RCN.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"rcn",
-                "class":"green"
-            },
-            "volume":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"green"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+   
     {
         "name":"ENJ",
         "fullName":"EnjinCoin",
@@ -6729,35 +5932,7 @@
             }
         }
     },
-    {
-        "name":"YOYOW",
-        "fullName":"YOYOW",
-        "iconName":"YOYOW.svg",
-        "coinPriceLink":"https://atomicwallet.io",
-        "coinLink":"https://atomicwallet.io/ethereum-wallet",
-    "status":{
-            "send":{
-                "text":"333.5",
-                "class":"green"
-            },
-            "coinID":{
-                "text":"yoyow",
-                "class":"green"
-            },
-            "volume":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "buylink":{
-                "text":"https://atomicwallet.io/buy-bitcoin",
-                "class":"normal"
-            },
-            "walletlink":{
-                "text":"https://atomicwallet.io/ethereum-wallet",
-                "class":"wallet-list"
-            }
-        }
-    },
+   
     {
         "name":"NULS",
         "fullName":"Nuls",

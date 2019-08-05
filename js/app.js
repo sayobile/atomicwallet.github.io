@@ -956,20 +956,6 @@ class Page {
 
 }
 
-      $(window).scroll(function(){
-    if ($(window).scrollTop() >= 200) {
-        $('div.coin').addClass('fixed-header');
-        $('img.img-logo').addClass('no-logo');
-        $('header.coin').addClass('header-height');
-    }
-    else {
-        $('div.coin').removeClass('fixed-header');
-        $('img.img-logo').removeClass('no-logo');
-        $('header.coin').removeClass('header-height');
-    }
-});
-
-
 new Page();
 new BuyBitcoin();
 new BuyLitecoin();
