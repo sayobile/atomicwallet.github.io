@@ -144,6 +144,13 @@ img {
   .token-list a {
     color: #2091fa;
   }
+  .flex-item-p a:hover,
+  .token-list a:hover,
+  .flex-item-p-link:hover,
+  .button-token:hover {
+    text-decoration: underline;
+    color: #1c2d4f;
+  }
   a {
     color: unset;
   }
@@ -317,12 +324,7 @@ img {
     border-style: solid;
     text-transform: uppercase;
   }
-  .col-item-token:nth-child(2) {
-    width: 95px;
-  }
-  .col-item-token:nth-child(3) {
-    width: 364px;
-  }
+
 
   .item-page-image-template {
     text-align: center;
