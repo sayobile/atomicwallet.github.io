@@ -1874,7 +1874,6 @@
             }
         }
     },
-  
     {
         "name":"ANT",
         "fullName":"Aragon",
@@ -1905,9 +1904,9 @@
         }
     },
     {
-        "name":"APT",
-        "fullName":"Aigang",
-        "iconName":"APT.svg",
+        "name":"VIDT",
+        "fullName":"V-ID",
+        "iconName":"VIDT.svg",
         "coinPriceLink":"https://atomicwallet.io",
         "coinLink":"https://atomicwallet.io/ethereum-wallet",
     "status":{

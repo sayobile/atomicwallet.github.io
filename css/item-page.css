@@ -73,6 +73,12 @@ background-repeat: no-repeat;
 /* Download Templates  */
 .downloads-container {
     margin: 150px;
+    margin-top: 0px;
+}
+  .downloads-title {
+        font-size: 20px;
+    width: 958px;
+    margin: 0 auto;
 }
 
 
