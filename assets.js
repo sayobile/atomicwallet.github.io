@@ -1905,6 +1905,35 @@
         }
     },
     {
+        "name":"VIDT",
+        "fullName":"V-ID",
+        "iconName":"VIDT.svg",
+        "coinPriceLink":"https://atomicwallet.io",
+        "coinLink":"https://atomicwallet.io/ethereum-wallet",
+    "status":{
+            "send":{
+                "text":"apt",
+                "class":"green"
+            },
+            "coinID":{
+                "text":"apt",
+                "class":"green"
+            },
+            "volume":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
+                "class":"normal"
+            },
+            "buylink":{
+                "text":"https://atomicwallet.io/buy-bitcoin",
+                "class":"normal"
+            },
+            "walletlink":{
+                "text":"https://atomicwallet.io/ethereum-wallet",
+                "class":"wallet-list"
+            }
+        }
+    },
+    {
         "name":"APT",
         "fullName":"Aigang",
         "iconName":"APT.svg",
