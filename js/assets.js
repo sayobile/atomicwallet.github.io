@@ -941,7 +941,7 @@ class Assets {
           .catch(console.log)
     }
     getPrice5 () {
-        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XNN,XRL,BCPT,BIX,R,GTO,XEM,SRN,OCN,ELF,GVT,EVX,TNB,RUFF,AMB,BTM,THETA,POLY,APPC,JNT,QUN,NAS,DTA,SXUT,LEND,POWR,ITC,RCN,ENJ,RDN,MTN,REQ,WPR,DLT,GNX,ST,AST,CMT,AIDOC,YOYOW,NULS,MOD,UKG,BRD,GTC,BKX,MDS,CND,ENG,DPY,C20,LEV,ATM,STORM,MOF,QSP,QASH,SPHTX,CS,DRGN,ETHOS,DCN,NOW,VIDT&tsyms=USD")
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=XNN,XRL,BCPT,BIX,R,GTO,XEM,SRN,OCN,ELF,GVT,EVX,TNB,RUFF,AMB,BTM,THETA,POLY,APPC,JNT,QUN,NAS,DTA,SXUT,LEND,POWR,ITC,RCN,ENJ,RDN,MTN,REQ,WPR,DLT,GNX,ST,AST,CMT,AIDOC,YOYOW,NULS,MOD,UKG,BRD,GTC,BKX,MDS,CND,ENG,DPY,C20,LEV,ATM,STORM,MOF,QSP,QASH,SPHTX,CS,DRGN,ETHOS,DCN,NOW&tsyms=USD")
           .then(r => r.json())
           .then(r => {
         
@@ -987,7 +987,7 @@ class Assets {
           .catch(console.log)
     }  
     getMarketCap2 () {
-        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=IOTA,ALIS,AMIS,ANT,APT,ARC,ARN,ART,ATH,IOTX,ATL,AVA,AVT,BCDN,BET,BLX,BMC,BMT,BNC,BRAT,BQX,BTE,CAG,CAT,CCC,CDT,CFI,CMC,COB,CRB,CREDO,CTL,CVC,DATA,DDF,DENT,DGX,DICE,DNT,DRP,EDG,ELIX,EURT,FRD,FUEL,FUN,GBT,GNO,GUP,H2O,HGT,HST,ICE,ICN,ICOS,IFT,IND,IXT,JET,KICK,KIN,KNC,RFR,LATX,LIFE,LINK&tsyms=USD")
+        fetch("https://min-api.cryptocompare.com/data/pricemultifull?fsyms=IOTA,ALIS,AMIS,ANT,VIDT,ARC,ARN,ART,ATH,IOTX,ATL,AVA,AVT,BCDN,BET,BLX,BMC,BMT,BNC,BRAT,BQX,BTE,CAG,CAT,CCC,CDT,CFI,CMC,COB,CRB,CREDO,CTL,CVC,DATA,DDF,DENT,DGX,DICE,DNT,DRP,EDG,ELIX,EURT,FRD,FUEL,FUN,GBT,GNO,GUP,H2O,HGT,HST,ICE,ICN,ICOS,IFT,IND,IXT,JET,KICK,KIN,KNC,RFR,LATX,LIFE,LINK&tsyms=USD")
           .then(r => r.json())
           .then(r => {
     
