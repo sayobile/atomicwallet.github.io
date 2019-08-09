@@ -91,13 +91,13 @@ const URL_BALANCE = 'listing-campaign'
               })
 
               if (!price) return
-            let tokenBalance = qs('#token-balance-cnd');
+            let tokenBalance = qs('#token-balance-freldo');
             tokenBalance.innerHTML = Number(price)
             console.log(this);
             let goalProgress = Number((price / 5000)*100)  
             console.log(goalProgress);
 
-            var element = document.getElementById('progress-cnd');
+            var element = document.getElementById('progress-freldo');
             element.style.width = (goalProgress) + "%";
 
           })
