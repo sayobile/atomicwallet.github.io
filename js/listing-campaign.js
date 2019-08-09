@@ -79,6 +79,32 @@ function copyStringToClipboard (str) {
 const URL_BALANCE = 'listing-campaign'
 
 
+    function getPriceCNX () {
+
+        fetch("https://dex.binance.org/api/v1/account/bnb14gtfldc9xxpctzrq4y48gxjyqwlw5a4mcl96wx")
+          .then(r => r.json())
+          .then(r => {
+             let price;
+              r.balances.forEach(balance => {
+                if (balance.symbol === "AWC-986"){price = balance.free}  
+
+              })
+
+              if (!price) return
+            let tokenBalance = qs('#token-balance-freldo');
+            tokenBalance.innerHTML = Number(price)
+            console.log(this);
+            let goalProgress = Number((price / 5000)*100)  
+            console.log(goalProgress);
+
+            var element = document.getElementById('progress-freldo');
+            element.style.width = (goalProgress) + "%";
+
+          })
+
+    }
+
+
 
     function getPriceCND () {
 
@@ -503,7 +529,7 @@ function getPricePoe () {
 }
 
 
-
+    getPriceCNX();
     getPriceCND();
     getPriceHarmony();
     getPriceEnigma();
