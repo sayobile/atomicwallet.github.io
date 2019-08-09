@@ -567,11 +567,11 @@
 .icon-appc:before {
   content: "\e960";
 }
-.icon-apt {
-  background: linear-gradient(to bottom, #6ac1ff 0%, #006ebe 100%);
+.icon-vidt {
+  background: linear-gradient(to bottom, #3DBFCD 0%, #00D5EC 100%);
 }
-.icon-apt:before {
-  content: "\e961";
+.icon-vidt:before {
+  content: "\ea9c"; 
 }
 .icon-arc {
   background: linear-gradient(to bottom, #61f4d7 0%, #00b19d 100%);
