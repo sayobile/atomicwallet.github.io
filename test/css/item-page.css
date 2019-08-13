@@ -435,6 +435,38 @@ main.support {
 
     margin: 20px;
 }
+ .banner-button {
+     background: #166FD8;
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    /* left: 972px; */
+    bottom: -66px;
+    width: 240px;
+    height: 50px;
+    margin-left: 790px;
+    line-height: 45px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 22px;
+    }
+    .banner-container {
+    width: 1060px;
+    margin: 0 auto;
+    }
+    .banner-button:hover {
+        background-color: white;
+        color: #166FD8;
+    }
+    .banner-image {
+        width: 1060px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 46px;
+    }
 .center {
     text-align: center;
     }
@@ -1105,6 +1137,9 @@ li> .item-page-image-template {
     }
     .widget-paragraph {
             flex-wrap: wrap;
+    }
+    .banner-container {
+            display: none;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
