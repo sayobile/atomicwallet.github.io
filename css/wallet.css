@@ -1444,7 +1444,6 @@ ul .article-li {
         grid-template-columns: 320px;
     }
     .exchange-banner {
-        width: 80% !important;
         height: 53px !important;
         box-shadow: 0 8px 40px rgba(24, 40, 72, 0.11);
     }
