@@ -389,7 +389,64 @@ color: #929EAA;
 
 
 
+/*Staking*/
+.div-items {
+      width: 100%;
+    justify-content: space-between;
+}
+.container {
+  max-width: 940px;
+  margin: 20px auto;
+  padding: 0 20px; }
 
+.container-flex {
+  display: -webkit-box;
+  display: flex;
+  margin: 20px 0; }
+
+.container-flex div {
+  padding: 15px;
+  display: -webkit-box;
+  display: flex;
+  text-align: center; }
+.container-flex a {
+  text-decoration: none;
+}
+.container-flex a:hover {
+  text-decoration: underline;
+}
+.block-column {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column; }
+
+.block-row {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row; }
+
+.block-wrap {
+  flex-wrap: wrap; }
+
+.info {
+  align-self: center; }
+
+.wallets {
+  justify-content: space-around; }
+
+.wallet {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  max-width: 70px; }
+  .wallet > .info {
+    font-size: 20px; }
+
+/*End of Staking*/
 
 /************* /COIN PRICE Articles ************/
 
