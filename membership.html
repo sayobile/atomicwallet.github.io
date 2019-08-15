@@ -130,64 +130,66 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="details"> 
     <h1 class="f2-title features-title f-bold">Membership Status</h1>
     <div class="details__container">
-            <div class="item-feature blue">
+        <div class="details__container--feature">
+            <div class="item-feature">
             <div class="details__container--feature__icon">
-                <span class="membership-title">Blue</span>
-                <span class="membership-title-2">1000 AWC</span>
+                <div><img src="css/images/icons/blue-plan.svg">
                 </div>
+                <span class="bronze--text">Blue</span>
+            </div>
 
             <div class="details__container--feature__info">
                 <h2>0.25% Cashback</h2>
+                <span class="hold">Hold: 1000 AWC</span>
                 <span class="limit">Max $100 AWC monthly</span>
-                <div class="membership-button">Join Membership</div>
-            </div>
             </div>
 
+        </div>
 
-                    <div class="item-feature silver">
+                    <div class="item-feature">
                     <div class="details__container--feature__icon">
-                        <span class="membership-title">Silver</span>
-                        <span class="membership-title-2">3,000 AWC</span>
+                        <div><img src="css/images/icons/silver-plan.svg">
                         </div>
+                        <span class="silver--text">Silver</span>
+                    </div>
         
                     <div class="details__container--feature__info">
                         <h2>0.5% Cashback</h2>
+                        <span class="hold">Hold: 3,000 AWC</span>
                         <span class="limit">Max $150 AWC monthly</span>
-                        <div class="membership-button">Join Membership</div>
                     </div>
-                    </div>
-               
+                </div>
      
-            <div class="item-feature gold">
+            <div class="item-feature">
                 <div class="details__container--feature__icon">
-                    <span class="membership-title">Gold</span>
-                    <span class="membership-title-2">5,000 AWC</span>
                     <div>
+                        <img src="css/images/icons/gold-plan.svg">
                         
                     </div>
+                    <span class="gold--text">Gold</span>
                 </div>
     
                 <div class="details__container--feature__info">
                     <h2>0.75% Cashback</h2>
+                    <span class="hold">Hold: 5,000 AWC</span>
                     <span class="limit">Max $200 AWC monthly</span>
-                    <div class="membership-button">Join Membership</div>
                 </div>
             </div>
 
 
-                <div class="item-feature platinum">
+                <div class="item-feature">
                         <div class="details__container--feature__icon">
-                            <span class="membership-title">Platinum</span>
-                            <span class="membership-title-2">+10,000 AWC</span>
+                            <div><img src="css/images/icons/platinum-plan.svg">
                             </div>
+                            <span class="platinum--text">Platinum</span>
+                        </div>
             
                         <div class="details__container--feature__info">
                             <h2>1% Cashback</h2>
+                            <span class="hold">Hold:+10,000 AWC</span>
                             <span class="limit">Max $300 AWC monthly</span>
-                            <div class="membership-button">Join Membership</div>
                         </div>
-                        </div>
-                    
+                    </div>
     </div><br>
       </div>
 </div>
@@ -195,109 +197,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     </div>
 
-<style type="text/css">
-    .item-feature {
-        display: flex;
-    align-items: center;
-    /* width: 45%; */
-    margin: 12.5px 0;
-    flex-wrap: wrap;
-    flex-flow: column;
-    max-width: 25%;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 20%;
-    flex: 0 0 24%;
-    margin-right: 5px;
-    }
-    .details__container {
-            display: flex;
-    flex-wrap: wrap;
-    }
-    .details__container--feature__icon {
-    color: white;
-    font-size: 11px;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    border-radius: 12px;
-    padding-top: 10px;
-    justify-content: center;
-    }
-    .membership-title {
-         height: 100%;
-    padding: 18px 0 0;
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 1;
-    }
-    .membership-title-2 {
-        font-size: 25px;
-    padding-bottom: 10px;
-    line-height: 1;
-    padding-top: 7px;
-    font-weight: 900;
-    }
-    .blue {
-        background-color: #3fbdfd;
-    }
-    .silver {
-        background-color: #868686;
-    }
-    .gold {
-        background-color: #F1B70B; 
-    }
-    .platinum {
-           background: linear-gradient(90.13deg, #888884 0.03%, #000000 99.98%);
-}   
-    .membership-button {
-       position: relative;
-    top: 0;
-    margin: auto;
-    -webkit-box-shadow: 0 3px 0 0 #253b7f;
-    box-shadow: 0 38px 50px rgba(34, 83, 139, 0.25);
-    display: block;
-    background: linear-gradient(360deg, #ffffff 0%, #efefef 100%, #ffffff 100%);
-    color: #3fbdfd;
-    margin: 20px 0px 20px 0px;
-    padding: 10px 10px;
-    border: 0;
-    cursor: pointer;
-    border-radius: 8px;
-    width: 100%;
-    }
-    .membership-button:hover {
-            background: linear-gradient(360deg, #0075E2 0%, #41C1FD 100%, #41C1FD 100%);
-    color: white;
-    }
-    .details__container--feature__info {
-    display: flex;
-    flex-direction: column;
-    color: #000000;
-    margin-top: 20px;
-    }
-    .details__container--feature__info h2 {
-    margin: 0;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    color: white;
-    font-size: 20px;
-    font-weight: 900;
-    line-height: 24px;
-    text-align: center;
-    }
-    .details__container--feature__info .limit {
-    font-size: 14px;
-    font-size: 14px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-bottom: 1px solid #f4f4f4;
-    color: white;
-    }
-</style>
+
 
 
         <div class="item-page-article">
