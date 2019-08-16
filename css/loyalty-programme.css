@@ -204,6 +204,7 @@ line-height: 28px;
     -ms-flex: 0 0 20%;
     flex: 0 0 24%;
     margin-right: 5px;
+    border-radius: 6px;
     }
     .details__container {
             display: flex;
