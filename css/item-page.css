@@ -52,7 +52,62 @@ p {
 /* Download Templates  */
 .downloads-container {
     margin: 150px;
+<<<<<<< HEAD
     }
+=======
+    margin-top: 0px;
+}
+  .downloads-title {
+        font-size: 20px;
+    width: 958px;
+    margin: 0 auto;
+}
+
+
+.ama-report{
+    background-color:white;
+    border-radius:16px;
+    max-width: 1060px;
+    margin:0 auto;
+    margin-top:50px;
+}
+
+.ama-report h1{
+    font-size:36px!important;
+    text-align:left;
+    width:680px;    
+    padding-top: 22px;
+    margin:0 auto;
+    font-family: 'Roboto'
+}
+
+.ama-report h4{
+    text-align: left;
+    width:680px; 
+    margin:0 auto;
+    padding:15px 0;
+}
+
+.ama-report-paragraph{
+    margin-left:190px!important;
+    margin-top:10px!important;
+}
+
+
+
+
+
+.ama-report p{
+    padding:15px 0; 
+}
+
+.ama-report p:last-child{
+    padding:15px 0; 
+    padding-bottom:50px;
+}
+
+
+>>>>>>> e919663b6148db71a355db439993d7b819afb510
 .releases {
     margin-bottom: 60px;
     padding: 30px;
