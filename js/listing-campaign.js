@@ -81,8 +81,38 @@ class getCNDBalance {
             this.getPrice()
         }
     }
+/*
 
     getPrice () {
+    function getPriceCNX () {
+
+        fetch("https://dex.binance.org/api/v1/account/bnb14gtfldc9xxpctzrq4y48gxjyqwlw5a4mcl96wx")
+          .then(r => r.json())
+          .then(r => {
+             let price;
+              r.balances.forEach(balance => {
+                if (balance.symbol === "AWC-986"){price = balance.free}  
+
+              })
+
+              if (!price) return
+            let tokenBalance = qs('#token-balance-freldo');
+            tokenBalance.innerHTML = Number(price)
+            console.log(this);
+            let goalProgress = Number((price / 5000)*100)  
+            console.log(goalProgress);
+
+            var element = document.getElementById('progress-freldo');
+            element.style.width = (goalProgress) + "%";
+
+          })
+
+    }
+
+
+
+    function getPriceCND () {
+
         fetch("https://dex.binance.org/api/v1/account/bnb1efgp3rfqv36jm4q0ndxzgq42eskryde5jc9lk8")
           .then(r => r.json())
           .then(r => {
@@ -138,7 +168,7 @@ class getHARMONYBalance {
 
     }
 
-}
+}*/
   class getENIGMABalance {
     constructor() {
         if(window.location.href.includes(URL_BALANCE)) {
@@ -544,7 +574,32 @@ class getCRYPTOCOMBalance {
     }
 
 }
+<<<<<<< HEAD
 class getPOETBalance {
+=======
+
+
+    getPriceCNX();
+    getPriceCND();
+    getPriceHarmony();
+    getPriceEnigma();
+    getPriceFantom();
+    getPriceHydro();
+    getPriceMonetha();
+    getPriceOax();
+    getPricePropy();
+    getPriceRen();
+    getPriceStorm();
+    getPriceTel();
+    getPriceTnt();
+    getPriceVra();
+    getPriceRde();
+    getPriceCro();
+    getPricePoe();
+
+/*
+class getHARMONYBalance {
+>>>>>>> cb3300c5deae2b2a23816ff72a2f0c1eac4c5f1c
     constructor() {
         if(window.location.href.includes(URL_BALANCE)) {
             this.tokenBalance = qs('#token-balance-poet');

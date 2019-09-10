@@ -289,23 +289,32 @@ They are very active to make sure that we are updated regularly, It is a quality
     var appendNumber = 4;
     var prependNumber = 1;
     var swiper6 = new Swiper('.s6', {
-      slidesPerView: '3',
+      slidesPerView: 3,
       spaceBetween: 30,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
+      },
+      breakpoints:{
+        1150:{
+						slidesPerView:2,
+						spaceBetween:10
+					},
+					991:{
+						slidesPerView:1
+					}
       },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
     });
-    $(window).resize(function(){
+    /*$(window).resize(function(){
   var ww = $(window).width()
   if (ww<=468) swiper6.params.slidesPerView = 1;
   swiper6.resizeFix(true)
 })
-$(window).trigger('resize')
+$(window).trigger('resize')*/
   </script>
       </div>
 </section>
@@ -712,13 +721,13 @@ $(window).trigger('resize')
                     <div class="partners-list">
 
 
-                        <a class="hvr-grow" href="https://changelly.com/?ref_id=c2062aad8a83" taget="_blank" rel="nofollow"><img src="css/images/partner-changelly.svg" alt=""></a>
-            <a class="hvr-grow" href="https://shapeshift.io" taget="_blank" rel="nofollow"><img src="css/images/partner-ShapeShift.svg" alt=""></a>
-            <a class="hvr-grow" href="https://changenow.io?link_id=af2fc093c6dc40" target="_blank" rel="nofollow"><img src="css/images/change-now.svg" alt=""></a>
-            <a class="hvr-grow" href="https://www.simplex.com/" target="_blank" rel="nofollow"><img src="css/images/partner-simplex.png" alt=""></a>
-            <a class="hvr-grow" href="https://bnktothefuture.com/" target="_blank" rel="nofollow"><img src="css/images/partners-bnktothefuture.png" alt=""></a>
-            <a class="hvr-grow" href="https://fenbushi.digital" target="_blank"rel="nofollow"><img src="css/images/partner-fenbushi.png" alt=""></a>
-            <a class="hvr-grow" href="https://coinmarketcap.com/" target="_blank" rel="nofollow"><img src="css/images/partner-coinmarketcap.png" alt=""></a>
+                        <a class="hvr-grow" ><img src="css/images/partner-changelly.svg" alt=""></a>
+            <a class="hvr-grow" ><img src="css/images/partner-ShapeShift.svg" alt=""></a>
+            <a class="hvr-grow" ><img src="css/images/change-now.svg" alt=""></a>
+            <a class="hvr-grow" ><img src="css/images/partner-simplex.png" alt=""></a>
+            <a class="hvr-grow" ><img src="css/images/partners-bnktothefuture.png" alt=""></a>
+            <a class="hvr-grow" ><img src="css/images/partner-fenbushi.png" alt=""></a>
+            <a class="hvr-grow" ><img src="css/images/partner-coinmarketcap.png" alt=""></a>
 
                     </div>
                 </div>
