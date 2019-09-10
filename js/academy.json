@@ -1,0 +1,1329 @@
+[
+
+	{
+		"title": "What is Blockchain?",
+		"link": "https://atomicwallet.io/what-is-blockchain",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/what-is-blockchain-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "8 minutes",
+		"type": "blockchain",
+		"id":"1"
+	},
+	
+	
+	{
+		"title": "What are network fees?",
+		"link": "https://atomicwallet.io/network-fees",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/network-fees-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "8 minutes",
+		"type": "blockchain",
+		"id":"2"
+	},
+	
+	{
+		"title": "What are Bitcoin network fees?",
+		"link": "https://atomicwallet.io/bitcoin-network-fees",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/inputs-example.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "8 minutes",
+		"type": "blockchain",
+		"id":"3"
+	},
+	
+	{
+		"title": "What are Ethereum Network Fees?",
+		"link": "https://atomicwallet.io/ethereum-network-fees",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/ethereum-network-fees-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "10 minutes",
+		"type": "blockchain",
+		"id":"4"
+	},
+	
+	{
+		"title": "What are Smart Contracts?",
+		"link": "https://atomicwallet.io/smart-contracts",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/smart-contracts-but-small-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "8 minutes",
+		"type": "blockchain",
+		"id":"5"
+	},
+	
+	{
+		"title": "What is 51% Attack?",
+		"link": "https://atomicwallet.io/51-attack",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/51-attack-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "10 minutes",
+		"type": "tutorials",
+		"id":"6"
+	},
+	
+	{
+		"title": "Cryptocurrency Market Cap",
+		"link": "https://atomicwallet.io/market-cap",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/cryptocurrency_market_cap_blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "6 minutes",
+		"type": "tutorials",
+		"id":"7"
+	},
+	
+	{
+		"title": "What are Mining Pools?",
+		"link": "https://atomicwallet.io/mining-pools",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/mining-pools-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "8 minutes",
+		"type": "blockchain",
+		"id":"8"
+	},
+	
+	{
+		"title": "How cryptocurrency rates work?",
+		"link": "https://atomicwallet.io/how-cryptocurrency-rates-work",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/cryptocurrency-rates-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "8 minutes",
+		"type": "blockchain",
+		"id":"9"
+	},
+	
+	{
+		"title": "What is a Blockexplorer?",
+		"link": "https://atomicwallet.io/block-explorer",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/block-explorer-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "10 minutes",
+		"type": "blockchain",
+		"id":"10"
+	},
+	
+	{
+		"title": "How to use Ethereum block explorer?",
+		"link": "https://atomicwallet.io/how-to-use-ethereum-block-explorer",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/ethereum-block-explorer-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "10 minutes",
+		"type": "tutorials",
+		"id":"11"
+	},
+	
+	{
+		"title": "What are DApps?",
+		"link": "https://atomicwallet.io/what-are-dapps",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/dapps-image-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "12 minutes",
+		"type": "blockchain",
+		"id":"12"
+	},
+	
+	{
+		"title": "What is STO?",
+		"link": "https://atomicwallet.io/security-tokens",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/security-token-offering-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "8 minutes",
+		"type": "tutorials",
+		"id":"13"
+	},
+	
+	{
+		"title": "What is a Token Swap?",
+		"link": "https://atomicwallet.io/what-is-a-token-swap",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/what-is-a-token-swap-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "10 minutes",
+		"type": "tutorials",
+		"id":"14"
+	},
+	
+	{
+		"title": "Crypto and Digital Money",
+		"link": "https://atomicwallet.io/cryptocurrency-and-digital-currency",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/cryptocurrency-and-digital-currency-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "10 minutes",
+		"type": "tutorials",
+		"id":"15"
+	},
+	
+	{
+		"title": "How Lightning Network works?",
+		"link": "https://atomicwallet.io/lightning-network",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/lightning-network-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "12 minutes",
+		"type": "blockchain",
+		"id":"16"
+	},
+	
+	{
+		"title": "Difference between coins and tokens?",
+		"link": "https://atomicwallet.io/coins-and-tokens",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/coins-and-tokens-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "10 minutes",
+		"type": "blockchain",
+		"id":"17"
+	},
+	
+	{
+		"title": "What is a Ponzi Scheme?",
+		"link": "https://atomicwallet.io/ponzi-scheme",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/ponzi-scheme-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "12 minutes",
+		"type": "tutorials",
+		"id":"18"
+	},
+	
+	{
+		"title": "What is pump and dump scheme?",
+		"link": "https://atomicwallet.io/what-is-pump-and-dump",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/what-is-pump-and-dump-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "20 minutes",
+		"type": "tutorials",
+		"id":"19"
+	},
+	
+	{
+		"title": "What is Proof of Stake?",
+		"link": "https://atomicwallet.io/what-is-proof-of-stake",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/what-is-proof-of-stake-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/hard.svg",
+			"text":"Hard"
+	},
+		"timeFor": "10 minutes",
+		"type": "blockchain",
+		"id":"20"
+	},
+	
+	{
+		"title": "Blockchain Regulation",
+		"link": "https://atomicwallet.io/blockchain-regulation",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/blockchain-regulation-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "8 minutes",
+		"type": "blockchain",
+		"id":"21"
+	},
+	
+	{
+		"title": "Public Wi-Fi and crypto",
+		"link": "https://atomicwallet.io/public-wifi-and-crypto",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/crypto-and-public-wifi-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "8 minutes",
+		"type": "tutorials",
+		"id":"22"
+	},
+	
+	{
+		"title": "Public Wi-Fi and crypto",
+		"link": "https://atomicwallet.io/libra-coin",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/libra-coin-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "tutorials",
+		"id":"23"
+	},
+	
+	{
+		"title": "Pros of Non-custodial Wallets",
+		"link": "https://atomicwallet.io/5-reasons-to-choose-a-non-custodial-wallet",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/5-reasons-to-choose-a-non-custodial-wallet-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "10 minutes",
+		"type": "blockchain",
+		"id":"24"
+	},
+	
+	{
+		"title": "Bank and Crypto Transfers",
+		"link": "https://atomicwallet.io/bank-and-crypto-transfers",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/fiat-money-transfer-and-blockchain-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "10 minutes",
+		"type": "tutorials",
+		"id":"25"
+	},
+	
+	{
+		"title": "What is Binance DEX?",
+		"link": "https://atomicwallet.io/binance-dex",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/binance-decentralized-exchange-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "10 minutes",
+		"type": "tutorials",
+		"id":"26"
+	},
+	
+	{
+		"title": "Ethereum Constantinople fork",
+		"link": "https://atomicwallet.io/constantinople-ethereum-hardfork",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/eth-forks-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "8 minutes",
+		"type": "tutorials",
+		"id":"27"
+	},
+	
+	{
+		"title": "Bitcoin Dust Attack",
+		"link": "https://atomicwallet.io/bitcoin-dust-attack",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/bitcoin-dust-attack-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/hard.svg",
+			"text":"Hard"
+	},
+		"timeFor": "8 minutes",
+		"type": "tutorials",
+		"id":"28"
+	},
+	
+	{
+		"title": "About BitTorrent Airdrop",
+		"link": "https://atomicwallet.io/bittorrent-airdrop",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/btt-airdrop-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "6 minutes",
+		"type": "tutorials",
+		"id":"29"
+	},
+	
+	{
+		"title": "How to add ETH tokens",
+		"link": "https://atomicwallet.io/how-to-add-erc20-token",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/add-erc20-token-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "4 minutes",
+		"type": "tutorials",
+		"id":"30"
+	},
+	
+	{
+		"title": "PundiX Staking",
+		"link": "https://atomicwallet.io/pundi-x-staking",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/pundi-x-staking-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "6 minutes",
+		"type": "tutorials",
+		"id":"31"
+	},
+	
+	{
+		"title": "AWC IDEX Trading Guide",
+		"link": "https://atomicwallet.io/how-to-trade-awc",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/trade-awc-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "8 minutes",
+		"type": "tutorials",
+		"id":"32"
+	},
+	
+	{
+		"title": "Proof of Stake and Proof of Work",
+		"link": "https://atomicwallet.io/proof-of-stake-vs-proof-of-work",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/proof-of-stake-vs-proof-of-work-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "10 minutes",
+		"type": "blockchain",
+		"id":"33"
+	},
+	
+	{
+		"title": "How to Detect Crypto Scam?",
+		"link": "https://atomicwallet.io/how-to-detect-crypto-scam",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/detect-crypto-scam-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/security.svg",
+			"text":"Security"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "8 minutes",
+		"type": "security",
+		"id":"34"
+	},
+	
+	{
+		"title": "How Crypto Wallet Works?",
+		"link": "https://atomicwallet.io/cryptocurrency-wallet",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/mainnotebook-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/tutorials.svg",
+			"text":"Tutorials"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "8 minutes",
+		"type": "tutorials",
+		"id":"35"
+	},
+	
+	{
+		"title": "How to Protect Funds?",
+		"link": "https://atomicwallet.io/how-to-protect-your-funds",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/how-to-protect-funds-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/security.svg",
+			"text":"Security"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "8 minutes",
+		"type": "security",
+		"id":"36"
+	},
+	
+	{
+		"title": "Stable Coins",
+		"link": "https://atomicwallet.io/what-are-stable-coins",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/what-are-stable-coins-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/blockchain.svg",
+			"text":"Blockchain"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "8 minutes",
+		"type": "blockchain",
+		"id":"37"
+	},
+	
+	{
+		"title": "Custodial vs Non-custodial",
+		"link": "https://atomicwallet.io/custodial-non-custodial-wallets-comparison",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/custodial-non-custodial-wallets-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/security.svg",
+			"text":"Security"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"security"
+	},
+		"timeFor": "10 minutes",
+		"type": "security",
+		"id":"38"
+	},
+	
+	{
+		"title": "Private Keys",
+		"link": "https://atomicwallet.io/what-are-private-keys-and-how-they-work",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/what-are-private-keys-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/security.svg",
+			"text":"Security"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "8 minutes",
+		"type": "security",
+		"id":"39"
+	},
+	
+	{
+		"title": "Atomic Wallet Security",
+		"link": "https://atomicwallet.io/atomic-wallet-security",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/cryptocurrency-wallet-security-blog.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/security.svg",
+			"text":"Security"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/normal.svg",
+			"text":"Normal"
+	},
+		"timeFor": "10 minutes",
+		"type": "security",
+		"id":"40"
+	},
+	
+	{
+		"title": "Fusion AMA",
+		"link": "https://atomicwallet.io/fusion-ama",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/fusion_ama_report_twitter.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/ama.svg",
+			"text":"Crypto Projects"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "ama",
+		"id":"41"
+	},
+	
+	{
+		"title": "Loopring AMA",
+		"link": "https://atomicwallet.io/loopring-ama",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/loopring_ama_report_twitter.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/ama.svg",
+			"text":"Crypto Projects"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "ama",
+		"id":"42"
+	},
+	
+	{
+		"title": "Loopring AMA",
+		"link": "https://atomicwallet.io/lto-network-ama",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/loopring_ama_report_twitter.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/ama.svg",
+			"text":"Crypto Projects"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "ama",
+		"id":"43"
+	},
+	
+	{
+		"title": "Loopring AMA",
+		"link": "https://atomicwallet.io/thorchain-bepswap-ama",
+		"imgSrc": "https://atomicwallet.io/css/images/articles/loopring_ama_report_twitter.png",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/ama.svg",
+			"text":"Crypto Projects"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "ama",
+		"id":"44"
+	},
+	
+	{
+		"title": "Instant #Cryptocurrency Transactions",
+		"link": "https://www.youtube.com/embed/LA5oy7Dy7pg",
+		"imgSrc": "http://i3.ytimg.com/vi/LA5oy7Dy7pg/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"45"
+	},
+	{
+		"title": "How to buy #BNB with a credit card",
+		"link": "https://www.youtube.com/embed/ZAGLXGqVErg",
+		"imgSrc": "http://i3.ytimg.com/vi/ZAGLXGqVErg/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"51"
+	},
+	{
+		"title": "Binance Coin (BNB) Wallet",
+		"link": "https://www.youtube.com/embed/xFvWS1j69VI",
+		"imgSrc": "http://i3.ytimg.com/vi/xFvWS1j69VI/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"52"
+	},
+	{
+		"title": "How to send Bitcoin",
+		"link": "https://www.youtube.com/embed/2EV1HQw772s",
+		"imgSrc": "http://i3.ytimg.com/vi/2EV1HQw772s/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"53"
+	},
+	{
+		"title": "Atomic Bitcoin Wallet",
+		"link": "https://www.youtube.com/embed/N_gbwdrRAwo",
+		"imgSrc": "http://i3.ytimg.com/vi/N_gbwdrRAwo/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"54"
+	},
+	{
+		"title": "What is Facebook Libra Cryptocurrency",
+		"link": "https://www.youtube.com/embed/3n7vTP6-xNo",
+		"imgSrc": "http://i3.ytimg.com/vi/3n7vTP6-xNo/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"55"
+	},
+	{
+		"title": "How to buy ETH with a credit card",
+		"link": "https://www.youtube.com/embed/wMRV2WeFFQo",
+		"imgSrc": "http://i3.ytimg.com/vi/wMRV2WeFFQo/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"56"
+	},
+	{
+		"title": "Get free AWC in Atomic Wallet Airdrop",
+		"link": "https://www.youtube.com/embed/BXsbGte93rI",
+		"imgSrc": "http://i3.ytimg.com/vi/BXsbGte93rI/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"57"
+	},
+	{
+		"title": "How to trade AWC on Binance DEX",
+		"link": "https://www.youtube.com/embed/Nq6D2OgpwB8",
+		"imgSrc": "http://i3.ytimg.com/vi/Nq6D2OgpwB8/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"58"
+	},
+	{
+		"title": "Why is it important to use a VPN",
+		"link": "https://www.youtube.com/embed/7ku7gJ0XYb4",
+		"imgSrc": "http://i3.ytimg.com/vi/7ku7gJ0XYb4/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"59"
+	},
+	{
+		"title": "How to top up Atomic Wallet",
+		"link": "https://www.youtube.com/embed/bo4F8hmrnyE",
+		"imgSrc": "http://i3.ytimg.com/vi/bo4F8hmrnyE/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"60"
+	},
+	{
+		"title": "How to customize Atomic Wallet assets list",
+		"link": "https://www.youtube.com/embed/T7s12_zsWX8",
+		"imgSrc": "http://i3.ytimg.com/vi/T7s12_zsWX8/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"61"
+	},
+	{
+		"title": "How to check the balance on the block explorer",
+		"link": "https://www.youtube.com/embed/dT7r83vFFYw",
+		"imgSrc": "http://i3.ytimg.com/vi/dT7r83vFFYw/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"62"
+	},
+	{
+		"title": "How to send cryptocurrency with no extra fee",
+		"link": "https://www.youtube.com/embed/lF-YQbyOwrg",
+		"imgSrc": "http://i3.ytimg.com/vi/lF-YQbyOwrg/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"63"
+	},
+	{
+		"title": "How to swap BNB to Binance Chain",
+		"link": "https://www.youtube.com/embed/fIUX0Z2YkPM",
+		"imgSrc": "http://i3.ytimg.com/vi/fIUX0Z2YkPM/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"64"
+	},
+	{
+		"title": "How to buy XRP with a credit card",
+		"link": "https://www.youtube.com/embed/Qo0TAr-CiVQ",
+		"imgSrc": "http://i3.ytimg.com/vi/Qo0TAr-CiVQ/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"65"
+	},
+	{
+		"title": "How to get Atomic Wallet Token (AWC)",
+		"link": "https://www.youtube.com/embed/EDnVMNwgKoo",
+		"imgSrc": "http://i3.ytimg.com/vi/EDnVMNwgKoo/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"66"
+	},
+	{
+		"title": "Atomic Wallet: Bitcoin, Ethereum, Ripple & Altcoins",
+		"link": "https://www.youtube.com/embed/6dg2COvK0LY",
+		"imgSrc": "http://i3.ytimg.com/vi/6dg2COvK0LY/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"67"
+	},
+	{
+		"title": "How to trade AWC on IDEX",
+		"link": "https://www.youtube.com/embed/QOtLCK90oxk",
+		"imgSrc": "http://i3.ytimg.com/vi/QOtLCK90oxk/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"68"
+	},
+	{
+		"title": "How to exchange crypto in Atomic Wallet",
+		"link": "https://www.youtube.com/embed/rpPqCCFZuHs",
+		"imgSrc": "http://i3.ytimg.com/vi/rpPqCCFZuHs/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"69"
+	},
+	{
+		"title": "Cardano (ADA) Atomic Wallet",
+		"link": "https://www.youtube.com/embed/BvCMe9Ij3GA",
+		"imgSrc": "http://i3.ytimg.com/vi/BvCMe9Ij3GA/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"70"
+	},
+	{
+		"title": "How to buy Bitcoin Cash (BCH)",
+		"link": "https://www.youtube.com/embed/w3x5C_B3Zy0",
+		"imgSrc": "http://i3.ytimg.com/vi/w3x5C_B3Zy0/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"71"
+	},
+	{
+		"title": "How to buy Litecoin (LTC)?",
+		"link": "https://www.youtube.com/embed/ANVwv89vR5E",
+		"imgSrc": "http://i3.ytimg.com/vi/ANVwv89vR5E/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"72"
+	},
+	{
+		"title": "DOGE Coin Atomic Wallet",
+		"link": "https://www.youtube.com/embed/QV7deJ3YNXA",
+		"imgSrc": "http://i3.ytimg.com/vi/QV7deJ3YNXA/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"73"
+	},
+	{
+		"title": "TRON (TRX) Atomic Wallet",
+		"link": "https://www.youtube.com/embed/GNZYhrmvTDQ",
+		"imgSrc": "http://i3.ytimg.com/vi/GNZYhrmvTDQ/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"74"
+	},
+	{
+		"title": "How To Create EOS Account",
+		"link": "https://www.youtube.com/embed/BSCKkLVn4bE",
+		"imgSrc": "http://i3.ytimg.com/vi/BSCKkLVn4bE/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"75"
+	},
+	{
+		"title": "ZCash ZEC Atomic Wallet",
+		"link": "https://www.youtube.com/embed/7VcTm4NgJ08",
+		"imgSrc": "http://i3.ytimg.com/vi/7VcTm4NgJ08/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"76"
+	},
+	{
+		"title": "Atomic Cryptocurrency Wallet",
+		"link": "https://www.youtube.com/embed/GvPLN8pe_IY",
+		"imgSrc": "http://i3.ytimg.com/vi/GvPLN8pe_IY/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"77"
+	},
+	{
+		"title": "Litecoin LTC Atomic Wallet",
+		"link": "https://www.youtube.com/embed/a_ZWtOlxiUw",
+		"imgSrc": "http://i3.ytimg.com/vi/a_ZWtOlxiUw/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"78"
+	},
+	{
+		"title": "Ripple XRP Atomic Wallet",
+		"link": "https://www.youtube.com/embed/mrnJawqNGdg",
+		"imgSrc": "http://i3.ytimg.com/vi/mrnJawqNGdg/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"79"
+	},
+	{
+		"title": "Stellar XLM Atomic Wallet",
+		"link": "https://www.youtube.com/embed/NCm35fqpTEE",
+		"imgSrc": "http://i3.ytimg.com/vi/NCm35fqpTEE/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"80"
+	},
+	{
+		"title": "Atomic Ethereum Wallet",
+		"link": "https://www.youtube.com/embed/11XYcQqCmmY",
+		"imgSrc": "http://i3.ytimg.com/vi/11XYcQqCmmY/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"81"
+	},
+	{
+		"title": "Multi-asset Atomic Wallet with decentralized cryptocurrency exchange",
+		"link": "https://www.youtube.com/embed/U6LZqiSfLTc",
+		"imgSrc": "http://i3.ytimg.com/vi/U6LZqiSfLTc/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"82"
+	},
+	{
+		"title": "How To Create Atomic Swap Order In Atomic Wallet",
+		"link": "https://www.youtube.com/embed/Hm8ysYzOeDM",
+		"imgSrc": "http://i3.ytimg.com/vi/Hm8ysYzOeDM/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"83"
+	},
+	{
+		"title": "How To Start Atomic Swap In Atomic Wallet",
+		"link": "https://www.youtube.com/embed/JdyUXLAIai0",
+		"imgSrc": "http://i3.ytimg.com/vi/JdyUXLAIai0/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"84"
+	},
+	{
+		"title": "Custody free exchange between Blockchains",
+		"link": "https://www.youtube.com/embed/f-HgTT93JV8",
+		"imgSrc": "http://i3.ytimg.com/vi/f-HgTT93JV8/maxresdefault.jpg",
+		"contentType":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/videos.svg",
+			"text":"Video"
+	},
+		"difficulty":{
+			"icon":"https://atomicwallet.io/css/images/icons/academy/easy.svg",
+			"text":"Easy"
+	},
+		"timeFor": "10 minutes",
+		"type": "video",
+		"id":"85"
+	}
+	
+	]

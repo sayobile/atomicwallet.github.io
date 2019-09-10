@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lazyload</title>
+</head>
+<body>
+
+<style> 
+  .academy-container {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 1140px;
+      margin-top: 50px;
+      padding: 40px 16px;
+      margin-top: 130px;
+    }
+    .academy-container h1 {
+      font-weight: bold;
+      font-size: 2.3rem;
+      color: #182848;
+      margin-bottom: 30px;
+    }
+    .academy-container h2 {
+      font-weight: bold;
+      font-size: 1.8rem;
+      color: #182848;
+      margin-bottom: 30px;
+    }
+    .academy-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-row-gap: 32px;
+      grid-column-gap: 16px;
+      margin-bottom: 40px;
+    }
+    .academy-item {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-decoration: none;
+      color: #182848;
+    }
+    a.academy-item:hover {
+    box-shadow: 0 5px 9px rgba(0,0,0,0.08), 0 5px 9px rgba(0,0,0,0.04);
+    border-radius: 16px;  
+    }
+
+    .academy-item img {
+      display: block;
+      width: 100%;
+      height: 158px;
+      object-fit: cover;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      flex-grow: 1;
+    }
+    .academy-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      padding: 12px;
+      background: white;
+      height: 130px;
+      overflow: hidden;
+    }
+    .card-item {
+      font-size: 16px;
+      height: 48px;
+      overflow: hidden;
+      margin-bottom: 16px;
+    }
+  .card-icons {
+      display: flex;
+      justify-content: space-around;
+      color: #969696;
+      font-size: 14px;
+      align-items: left;
+      height: 20px;
+      margin-top: 10px;
+      width: 100%;
+      align-items: center;
+    }
+  .card-icons-item {
+      display: flex;
+      align-items: center;
+    }
+    .card-title {
+      overflow: hidden;
+      font-size: 23px;
+      line-height: 37px;
+      text-align: left;
+      margin-left: 18px;
+    }
+    
+    .card-label {
+          font-size: 16px;
+      padding: 15px;
+      margin-left: 5px;
+      margin-top: -20px;
+    }
+    .card-icons img {
+      width: 24px;
+      height: auto;
+      object-fit: contain;
+      flex-grow: unset;
+      display: inline-flex;
+      padding-right: 5px;
+    }
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 50px;
+      width: 590px;
+    }
+    .filters-item {
+      display: flex;
+      align-items: baseline;
+      border-radius: 10px;
+      border: #182848 1px solid;
+      background-color: white;
+      color: #182848;
+      padding: 10px 18px;
+      font-size: 17px;
+      margin-top:10px;
+    }
+    .filters-item:hover {
+      background-color: #182848;
+      color: white;
+      border: none;
+    }
+
+    
+
+    a{
+      text-decoration: none;
+    }
+    /* Mobile */
+    @media screen and (max-width: 782px) {
+      .academy-list {
+        grid-template-columns: 1fr;
+      }
+      .academy-item img {
+        height: 100%;
+      }
+      .card-icons {
+        padding-right: 180px;
+      }
+      .filters {
+      width: 60%;
+      justify-content: space-between;
+      height: 280px;
+      flex-flow: column;
+      }
+    }
+
+
+
+    .hide{
+      opacity:0;
+    }
+
+
+
+    .loaded-note{
+      animation: fadeIn .25s ease-in-out;
+    }
+
+    .fadeOut{
+      display: none;
+    }
+
+
+    @keyframes fadeIn {
+      0%{
+          opacity:0;
+      }
+
+      100%{
+          opacity:1;
+      }
+    }
+
+
+
+              /*ATOMIC STYLES*/
+
+
+  /*VIDEO RULES*/
+
+
+  .overlay-utube-video{
+    position: fixed;
+    background:rgba(0,0,0,.5);
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100%;
+    height:100vh;
+    animation: slowFade .5s ease-in-out;
+    z-index: 9;
+    border: none;
+    border: 1px solid;
+  }
+
+  @keyframes slowFade {
+    0%{
+      opacity: 0;
+    }
+
+    100%{
+      opacity:1;
+    }
+  }
+
+  .overlay-utube-video iframe{
+    width:50%;
+    height:45%;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    border: none;
+    box-shadow: 0 0 10px 3px #383838;
+    z-index: 10;
+  }
+
+  .close-frame{
+    position:absolute;
+    z-index: 10;
+    right:50px;
+    top:50px;
+    width:50px;
+    height:50px;
+    color:white;
+    font-size:2em;
+    cursor: pointer;
+  }
+
+</style>
+
+ 
+
+
+    <div class="academy-container">
+            <h1>Atomic Wallet Academy</h1>
+            <div class="filters">
+              <a href="#" class="filter-by" data-filter="blockchain"><div class="filters-item">Blockchain</div></a>
+              <a href="#" class="filter-by" data-filter="security"><div class="filters-item">Security</div></a>
+              <a href="#" class="filter-by" data-filter="tutorials"><div class="filters-item">Tutorials</div></a>
+              <a href="#" class="filter-by" data-filter="video"><div class="filters-item">Video</div></a>
+              <a href="#" class="filter-by" data-filter="crypto_projects"><div class="filters-item">Crypto Projects</div></a>
+            </div>
+          
+            <div class="academy-list" data-filter-by=""></div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    
+    <script src="../atomicwallet.github.io/js/lazyload.js"></script>
+
+</body>
+</html>
